@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : 26.03.2015, 21:37:57
-    Author     : ???????»???µ?????‘?????°?????????‘?‚¬
+    Author     sana
 */
 
 .bootstrap-select.btn-group .btn .caret {
@@ -90,4 +90,15 @@ and open the template in the editor.
 .blok-shaka-index .h-4{
     font-size: 1.1em;
     width: 85%;
+}
+
+.p-plk{
+    position: absolute;
+    right: -2px;
+    top: -10px;
+}
+.l-plk{
+    position: absolute;
+    top: -10px;
+    left: -7px;
 }
