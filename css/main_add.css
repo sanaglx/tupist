@@ -1,0 +1,93 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.03.2015, 21:37:57
+    Author     : ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€
+*/
+
+.bootstrap-select.btn-group .btn .caret {
+    top: 47%;
+    vertical-align: middle;
+    margin-top: -2px;
+    position: absolute;
+    right: 5px;
+}
+
+.caret {
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+    background: url("../img/v.png") no-repeat scroll 0% 0% transparent;
+    height: 10px;
+    width: 13px;
+    border: none;
+}
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+    border-top: 0px none;
+    border-bottom: 0px solid;
+    content: "";
+}
+
+/*************************************************/
+.cont-okno{
+    /* width: 29%; */
+    border: 2px solid #5BC0DE;
+    position: relative;
+    box-shadow: 0 0 12px #555;
+    margin: 5px;
+    background: #FFF;
+}
+.cont-okno .img-close{ position: absolute; right: 4px; top: 4px;}
+.cont-okno .img-close:hover{opacity: 0.7;}
+
+.okno{  border: 1px solid #ccc;   margin: 27px 27px 15px 15px;  padding: 15px 5px;}
+.okno p{
+    padding: 12px 0 5px 0;
+    font: 1.2em/1em pk,arial;
+    color: #16b6ee;
+    margin: 0;
+}
+.okno li{padding: 6px 0 0 0;color: #16b6ee;font: 0.9em pk1 ,arial;cursor: pointer;}
+.okno a{color: #16b6ee;font: 0.9em pk1 ,arial;}
+.okno a:href{text-decoration: underline;}
+#results{
+    width: 600px;
+    position: absolute;
+    right: 0;
+    z-index: 5;
+}
+/*********************************************/
+.baba1{
+    position: absolute;    
+    top: 111px;    
+    right: 238px;    z-index: 5;    width: auto;
+}
+.bkg_m1{
+    background: url("../img/backg4.jpg") no-repeat 0 86px;
+    width: 100%;
+    height: 620px;
+}
+/*********************************/
+.blok-shaka-index{
+  width:50%;
+  position: absolute;
+  top: 133px;
+  margin-left: -577px;
+  left: 50%;
+  color: #fff;
+}
+.blok-shaka-index p{
+    font-size: 36px;
+}
+.blok-shaka-index .h-1{
+    font-size: 60px;
+    font-family: pk,arial;
+    padding-bottom: 20px;
+}
+.blok-shaka-index .h-4{
+    font-size: 1.2em;
+    width: 85%;
+}

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main_add.css" rel="stylesheet" type="text/css"/>
+
+        <script src="js/jquery-2.1.3.min.js" type="text/javascript"></script>
+        <script src="js/adddd.js" type="text/javascript"></script>
+        <script src="js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bootstrap-select.js" type="text/javascript"></script> 
+
+    </head>
+    <body>
+        <div class="head">
+            <div class="verh_meny">
+                <div class="wrap">
+                    <a class="img_logo" href="/"><img src="img/logo.png" /></a>
+                    <div class="menu">
+                        <ul class="nav nav-pills">
+                            <li><span class="add-men" ><img src="img/lup.png" /></span><a href="">ПОДБОР МЕСТА ОТДЫХА</a></li>
+                            <li><span class="add-men" >+</span><a href="">ДОБАВИТЬ ГОСТИННИЦУ</a></li>
+                            <li><span class="add-men"  style="margin: 7px;" >!</span><a href="info.html">АКЦИИ</a></li>
+                            <li><span class="add-men" ><img src="img/vyh_r.png" /></span><a href="contakt.html">КОНТАКТЫ</a></li>
+                        </ul>
+                    </div>
+                    <div class="r_log"><img src="img/vh.png" /> <a href="">Вход</a>&nbsp;&nbsp;/&nbsp;&nbsp;<img src="img/vyh.png" /><a href="">Регистрация</a></div> 
+                </div> 
+            </div>
+        </div>
+
+        <img class="baba" src="img/baba.png" />
+        <div class="bkg_m"></div>
+
+        <!--!  <div class="blok-shaka-index">
+              <div class="row">
+                  <div class="col-xs-8">
+                      <p class="ten-h">"МЫ ЖИВЕМ ОДИН РАЗ"</p>
+                      <div class="h-1 ten-h">РАБОТА ПОДОЖДЕТ</div>
+                      <div class="h-4 ten-h">Сайт посвящен курортам Черном моря, России, Абхазии, Крыма и др. 
+                          Отзывы отдыхающих,подбор жилья и места для вашего отличного отдыха!
+                      </div>
+                  </div>
+              </div>
+          </div> 
+        -->
+        <!-- Карусель -->
+        <div class="blok-shaka-index">
+            <div id="myCarousel" class="carousel slide" data-interval="7000" data-ride="carousel">
+                <!-- Индикаторы для карусели -->
+                <div class="n_xx">  
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <img src="img/strela_l.png" />
+                    </a>
+
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <img src="img/strela_r.png" />
+                    </a>
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol> 
+                </div> 
+                <!-- Слайды карусели -->
+                <div class="carousel-inner" style ="width: 73%">
+                    <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                    <div class="active item">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="ten-h">"МЫ ЖИВЕМ ОДИН РАЗ"</p>
+                                <div class="h-1 ten-h">РАБОТА ПОДОЖДЕТ</div>
+                                <div class="h-4 ten-h">Сайт посвящен курортам Черном моря, России, Абхазии, Крыма и др. 
+                                    Отзывы отдыхающих,подбор жилья и места для вашего отличного отдыха!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Слайд №2 -->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="ten-h">"МЫ ЖИВЕМ ОДИН РАЗ"</p>
+                                <div class="h-1 ten-h">РАБОТА ПОДОЖДЕТ</div>
+                                <div class="h-4 ten-h">Сайт посвящен курортам Черном моря, России, Абхазии, Крыма и др. 
+                                    Отзывы отдыхающих,подбор жилья и места для вашего отличного отдыха!
+                                    Сайт посвящен курортам Черном моря, России, Абхазии, Крыма и др. 
+                                    Отзывы отдыхающих,подбор жилья и места для вашего отличного отдыха!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Слайд №3 -->
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="ten-h">"МЫ ЖИВЕМ ОДИН РАЗ"</p>
+                                <div class="h-1 ten-h">РАБОТА ПОДОЖДЕТ</div>
+                                <div class="h-4 ten-h">Сайт посвящен курортам Черном моря, России, Абхазии, Крыма и др. 
+                                    Отзывы отдыхающих,подбор жилья и места для вашего отличного отдыха!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- //////////////////////////////-->   
+
+        <div class="blok_stolby">
+            <div class="stolby">
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                    </p>
+                </div>
+
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                    </p>
+                </div>
+
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                    </p>
+                </div>
+
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|
+                    </p>
+                </div>
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                    </p>
+                </div>
+
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                    </p>
+                </div>
+
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|
+                    </p>
+                </div>
+
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+
+                    </p>
+                </div>
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+
+                    </p>
+                </div>
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+
+                    </p>
+                </div>
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+
+                    </p>
+                </div>
+                <div class="list">
+                    <img src="img/ruba1.png" />
+                    <h3>Сочи</h3>
+                    <p>
+                        <a href="">Адлер </a>|  <a href="">Сочи </a>| <a href=""> Лазаревское </a>| <a href="">Аше </a>| <a href=""> Якорная Щель </a>|<a href="">Лоо </a>|
+                        <a href="">Дагомыс </a>| <a href="">Вишневка </a>|<a href="">Солоники </a>|<a href="">Головинка Хоста </a>|<a href="">Кудепста </a>|<a href="">Вардане </a>|
+                        <a href="">Имеретинская долина </a>| <a href="">Красная Поляна</a>|
+
+                    </p>
+                </div>
+
+
+            </div> 
+        </div>
+
+        <div class="center" >
+            <div class="clearr"></div>
+            <div class="wrap"> 
+                <h1>РАЗМЕСТИТЬ ЗАЯВКУ НА ПРОЖИВАНИЕ </h1>
+                <form class="form-zakaz"> 
+                    <table class="tbl1" border="0" width="100%">
+                        <tr>
+                            <td style="width: 395px;">
+                                <div class ="form-1">
+                                    <p>Количество людей</p>
+                                    <select class="form-control selectpicker show-tick " data-width="100px">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                    &nbsp;&nbsp;
+                                    <select class="selectpicker show-tick" data-width="100px">
+                                        <option>Mustard</option>
+                                        <option>Ketchup</option>
+                                        <option>Relish</option>
+                                    </select>
+                                </div>
+                                <div class ="form-1">
+                                    <p>Количество комнат</p>
+                                    <select class="selectpicker show-tick" data-width="165px" >
+                                        <option>Количество комнат</option>
+                                        <option>Количество комнат</option>
+                                        <option>Количество комнат</option>
+                                    </select>
+                                    &nbsp;&nbsp;
+                                    <select class="selectpicker show-tick" data-width="165px" >
+                                        <option>Условия проживания</option>
+                                        <option>Условия проживания</option>
+                                        <option>Условия проживания</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td style=" width: 262px;">
+                                <div>
+                                    <p>Заезд</p>
+
+
+                                    <div class='input-group date' id='datetimepicker1' style="width: 233px;">
+                                        <input type='text' class="form-control" />
+                                        <span class="input-group-addon">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+
+
+
+                                    <p id="ddc">Отезд</p>
+                                    <div class="input-group inp-rad" > 
+                                        <input class="form-control" type="text" name="otezd" placeholder= "Выбрать дату">
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p>Ваши контакты</p>
+                                    <div class="input-group inp-rad" > 
+                                        <input class="form-control" type="text" name="otezd" placeholder= "ФИО">
+                                    </div>
+                                    <div class="input-group inp-rad" > 
+                                        <input class="form-control" type="text" name="otezd" placeholder= "Телефон">
+                                    </div>
+                                    <div class="input-group inp-rad" > 
+                                        <input class="form-control" type="text" name="otezd" placeholder= "Email">
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <p>Место для отдыха</p>
+                                    <div class="input-group inp-rad" > 
+                                        <input id="inp-1" class="form-control" type="text" name="otezd" placeholder= "Выбор места отдыха" onclick="ajax()">
+                                        <img src="img/ov.png" />
+                                        <div id="results"></div>
+                                    </div>
+                                    <div class="input-group inp-rad" > 
+                                        <textarea class="form-control" rows="2" cols="20" name="textar" placeholder= "Пожелания к проживанию" style="height: 81px;"></textarea>
+                                    </div>
+                                    <div class="input-group inp-rad" > 
+                                        <span class="chislo"> 5-3=? </span><input class="form-control" type="text" name="otezd" placeholder= "Введите ответ" style="width:123px;">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button class="btn btn-info btn-lg inp-brad" href="#">ОТПРАВИТЬ</button>
+                </form> 
+                <div class="clearr"></div>
+                <p>
+                    В каждом курорте показан свой список с персональными фильтрами по предпочтениям, Вы можете выбрать гостиницы, например, только с отзывами или только с ценами,
+                    только фотографиями или предоставляемыми услугами. А автоматически высчитываемое расстояние от дома до моря не даст Вас обмануть! 
+                    Весь частный сектор представленный у нас — это живые люди, которые заинтересованы в своих клиентах, поэтому можете смело звонить и заказывать. 
+                    Если есть сомнения почитайте отзывы и рекомендации туристов, которые ранее уже останавливались в выбранных гостиницах! Все это есть в большом количестве и
+                    по многим частным гостиницам.
+                </p>
+                <div class="clearr"></div>                
+                <h1>НАШИ ПРЕИМУЩЕСТВА </h1>
+                <div class="row premi">
+                    <div class="col-xs-4">
+                        <div class="hapka1">
+                            <p>ПОДРОБНОЕ ОПИСАНИЕ КУРОРТА </p>
+                        </div>
+                        <img src="img/riba2.jpg" alt="">
+                        <div class="text">Наш сервис поможет вам сделать удачный выбор места отдыха.
+                            Вы можете выбрат наиболее подходящий курорт среди представленных мест отдыха.
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="hapka2">
+                            <p>ПОДБОР И БРОНЬ ЖИЛЬЯ </p>
+                        </div>
+                        <img src="img/riba2.jpg" alt="">
+                        <div class="text">Наш сервис поможет вам сделать удачный выбор места отдыха.
+                            Вы можете выбрат наиболее подходящий курорт среди представленных мест отдыха.
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="hapka3">
+                            <p>ВАЖНЫЕ СОВЕТЫ </p>
+                        </div>
+                        <img src="img/riba2.jpg" alt="">
+                        <div class="text">Наш сервис поможет вам сделать удачный выбор места отдыха.
+                            Вы можете выбрат наиболее подходящий курорт среди представленных мест отдыха.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearr"></div>
+
+        <!--ЭТО ВАЖНО ЗНАТЬ-->
+        <div class ="center1">
+            <div class="section">
+                <img  class="section-img" src="img/mus.png" alt="">
+                <div id="myCarousel-1" class="carousel slide" data-interval="7000" data-ride="carousel">
+                    <!-- Индикаторы для карусели -->
+                    <div class="n_xx">  
+                        <a class="carousel-control left" href="#myCarousel-1" data-slide="prev">
+                            <img src="img/left1.png" />
+                        </a>
+
+                        <a class="carousel-control right" href="#myCarousel-1" data-slide="next">
+                            <img src="img/right1.png" />
+                        </a>
+                    </div> 
+                    <!-- Слайды карусели -->
+                    <div class="carousel-inner">
+                        <!-- Слайды создаются с помощью контейнера с классом item, внутри которого помещается содержимое слайда -->
+                        <div class="active item">    
+
+                            
+                            <h1>ЭТО ВАЖНО ЗНАТЬ</h1>
+                            <div class="clearr"></div>
+                            <div class="text">
+                                <p>Как правило, самый удачный отдых на море начинается с плана и в этом плане значительное место занимает гостиница, 
+                                    после того как вы определились с местом отдыха. Мы предлагаем огромный выбор гостиниц и гостевых домов частного сектора,
+                                    квартир — всю цветастую палитру туристического бизнеса. </p>
+
+                                <p>В каждом курорте показан свой список с персональными фильтрами по предпочтениям, 
+                                    Вы можете выбрать гостиницы, например, только с отзывами или только с ценами, только фотографиями или предоставляемыми услугами.
+                                    А автоматически высчитываемое расстояние от дома до моря не даст Вас обмануть! Весь частный сектор представленный у нас — это живые люди,
+                                    которые заинтересованы в своих клиентах, поэтому можете смело звонить и заказывать.
+                                    Если есть сомнения почитайте отзывы и рекомендации туристов, которые ранее уже останавливались в выбранных гостиницах! 
+                                    Все это есть в большом количестве и по многим частным гостиницам.</p>
+
+                                <p>Стоимость на побережье разнится от недорогих 250 руб за человека в Абхазии и может доходить до 30 тысяч рублей в сутки
+                                    за президентский люкс в Сочи. Выбирайте на свой вкус и кошелек. Многое зависит от удобств, услуг, новизны гостевого дома, удаленности от моря.
+                                    Сейчас все активно строятся и спектр цен становится больше. Смотрите и выбирайте свой собственный отдых!
+                                    Бронирование.</p>
+                                Предварительное бронирование осуществляется через сообщение напрямую владельцу на сайте или по телефону.
+                                Но для отдыха «без сюрпризов», бронь лучше частично выкупать, как правило, 
+                            </div>
+                            <div class="clearr"></div>
+                            <div class="f-nav">
+                                
+                            </div>
+                        </div>
+                        <div class="item">    
+
+                           
+                            <h1>ЭТО ВАЖНО ЗНАТЬ</h1>
+                             <div class="clearr"></div>
+                            <div class="text">
+                                <p>Как правило, самый удачный отдых на море начинается с плана и в этом плане значительное место занимает гостиница, 
+                                    после того как вы определились с местом отдыха. Мы предлагаем огромный выбор гостиниц и гостевых домов частного сектора,
+                                    квартир — всю цветастую палитру туристического бизнеса. </p>
+
+                                <p>В каждом курорте показан свой список с персональными фильтрами по предпочтениям, 
+                                    Вы можете выбрать гостиницы, например, только с отзывами или только с ценами, только фотографиями или предоставляемыми услугами.
+                                    А автоматически высчитываемое расстояние от дома до моря не даст Вас обмануть! Весь частный сектор представленный у нас — это живые люди,
+                                    которые заинтересованы в своих клиентах, поэтому можете смело звонить и заказывать.
+                                    Если есть сомнения почитайте отзывы и рекомендации туристов, которые ранее уже останавливались в выбранных гостиницах! 
+                                    Все это есть в большом количестве и по многим частным гостиницам.</p>
+
+                                <p>Стоимость на побережье разнится от недорогих 250 руб за человека в Абхазии и может доходить до 30 тысяч рублей в сутки
+                                    за президентский люкс в Сочи. Выбирайте на свой вкус и кошелек. Многое зависит от удобств, услуг, новизны гостевого дома, удаленности от моря.
+                                    Сейчас все активно строятся и спектр цен становится больше. Смотрите и выбирайте свой собственный отдых!
+                                    Бронирование.</p>
+                                Предварительное бронирование осуществляется через сообщение напрямую владельцу на сайте или по телефону.
+                                Но для отдыха «без сюрпризов», бронь лучше частично выкупать, как правило, 
+                            </div>
+                            <div class="clearr"></div>
+                            <div class="f-nav">
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="clearr"></div>
+    <!--ПОСЛЕДНИЕ ДОБАВЛЕННЫЕ ГОСТИННИЦЫ -->
+    <div class="wrap p-dob-gos">
+        <h1>ПОСЛЕДНИЕ ДОБАВЛЕННЫЕ ГОСТИННИЦЫ</h1>
+        <div class="row ">
+            <div class="col-xs-4">
+                <img src="img/ryba3.jpg" alt="" class="p-dob-img">
+                <div class="p-dob">
+                    <a href="" class="h5">Гостевой дом "Отдых у Марии"</a>
+                    <p><img src="img/ovr.png" alt=""><span class="text">Анапа, ул. Пирогова д.87 </span></p>
+                    <p><img src="img/rub.png" alt=""><span class="text1">от 1000 руб, чел./сутки в апреле</span></p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <img src="img/ryba4.jpg" alt="" class="p-dob-img">
+                <div class="p-dob">
+                    <a href="" class="h5">Гостиница «Фаворит»</a>
+                    <p><img src="img/ovr.png" alt=""><span class="text">Судак, ул. Антонова, д.15, кв 25 </span></p>
+                    <p><img src="img/rub.png" alt=""><span class="text1">от 1000 руб, чел./сутки</span></p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <img src="img/ryba3.jpg" alt="" class="p-dob-img">
+                <div class="p-dob">
+                    <a href="" class="h5">Гостевой дом "Отдых у Марии"</a>
+                    <p><img src="img/ovr.png" alt=""><span class="text">Анапа, ул. Пирогова д.87 </span></p>
+                    <p><img src="img/rub.png" alt=""><span class="text1">от 1200руб, чел./сутки в январе</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4">
+                <img src="img/ryba4.jpg" alt="" class="p-dob-img">
+                <div class="p-dob">
+                    <a href="" class="h5">Гостевой дом "Отдых у Марии"</a>
+                    <p><img src="img/ovr.png" alt=""><span class="text">Анапа, ул. Пирогова д.87 </span></p>
+                    <p><img src="img/rub.png" alt=""><span class="text1">от 1000 руб, чел./сутки</span></p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <img src="img/ryba3.jpg" alt="" class="p-dob-img">
+                <div class="p-dob">
+                    <a href="" class="h5">Гостевой дом "Отдых у Марии"</a>
+                    <p><img src="img/ovr.png" alt=""><span class="text">Саки, ул. Морская 5 </span></p>
+                    <p><img src="img/rub.png" alt=""><span class="text1">от 1000 руб, чел./сутки</span></p>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <img src="img/ryba3.jpg" alt="" class="p-dob-img">
+                <div class="p-dob">
+                    <a href="" class="h5">Гостевой дом "Отдых у Марии"</a>
+                    <p><img src="img/ovr.png" alt=""><span class="text">Анапа, ул. Пирогова д.87 </span></p>
+                    <p><img src="img/rub.png" alt=""><span class="text1">от 1000 руб, чел./сутки</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"><button class="btn btn-warning btn-lg ins-kn " href="#">ДОБАВИТЬ ГОСТИННИЦУ</button></div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="wrap">
+            <a href="/"><img src="img/logo2.png" alt="" class="l2"></a>
+            <div class="menu2">
+                <a href="/">О сайте</a> |
+                <a href="/">Рекламные предложения</a>|
+                <a href="/">Контакты</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function ajax() { //Ajax отправка формы
+            $.ajax({
+                url: "./ajax/ajax.html",
+                cache: false,
+                success: function (html) {
+                    $("#results").append(html);
+                },
+                error: function (xhr, str) {
+                    alert("Возникла ошибка!");
+                }
+            });
+        }
+        /*******/
+        $(function () {
+            $('#results').on('click', '.list-unstyled li', function () {
+                var x = "";
+                x = $(this).text();
+                console.log(x);
+                $("#inp-1").val(x);
+            });
+        });
+
+        /*******/
+        $(function () {
+            $('#results').on('click', '.cont-okno', function () {
+                $(this).fadeOut(350, function () {
+                    $(this).remove();
+                });
+            });
+        });
+
+    </script>  
+    <script type="text/javascript">
+        // When the document is ready
+        $(document).ready(function () {
+            $('#datetimepicker1').datetimepicker();
+            $('#ddc').click(function () {
+                alert("ssssss");
+            });
+        });
+        
+         /******karusel**********/
+            $(document).ready(function () {
+                $('#myCarousel').carousel({
+                    interval: 0
+                })
+
+                $('#myCarousel').on('slid.bs.carousel', function () {
+                    //alert("slid");
+                });
+
+
+            });
+         /******karusel-1**********/
+            $(document).ready(function () {
+                $('#myCarousel-1').carousel({
+                    interval: 0
+                })
+
+                $('#myCarousel').on('slid.bs.carousel', function () {
+                    //alert("slid");
+                });
+
+
+            });    
+    </script>
+
+
+
+</body>
+</html>
