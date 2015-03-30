@@ -31,16 +31,16 @@
   background-image: none;
 }
 .carousel-control .left-nav{
-    margin-left: -75px;
+    margin-left: -41px;
     
 }
 .carousel-control .right-nav{
-    margin-right: -77px;
+    margin-right: -43px;
     
 }
 .carousel-control {
   padding-top:10.25%;
-  width:5%;
+  width: 26px;
 }
 /************* karusel index.html **********************/
 h2{
@@ -50,11 +50,11 @@ h2{
     font-size: 52px;
     font-family: "trebuchet ms", sans-serif;    
 }
-.item{
+/*.item{
     background: #333;    
     text-align: center;
     height: 300px !important;
-}
+}*/
 .carousel{
     margin-top: 20px;
 }
