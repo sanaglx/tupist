@@ -85,7 +85,7 @@ i{
     padding: 0px;
 }
 .nav li{
-    padding: 5px 55px 0 0;
+    padding: 4px 51px 0 0;
 }
 .nav li a{
     font-family: pk,arial;
@@ -411,7 +411,7 @@ span.chislo {}
 .menu-blue ul{
     /* margin-bottom: -10px; */
     position: relative;
-    top: 1px;
+    top: 2px;
 }
 .menu-blue li a{
     font-family: pk1,arial;
@@ -457,4 +457,23 @@ h1.lefth1:after{
 .ul-vl .text{ margin-top: -3px;}
 .ul-vl .text1{}
 .infoblok-right{font: 1em/2em pk1,arial; padding-left: 30px;}
+
+.caret1{
+  display: inline-block;
+  margin-left: 2px;
+  vertical-align: middle;
+  background: url("../img/v1.png") no-repeat 0px 2px;
+  height: 10px;
+  width: 13px;
+  border: none;}
+.nav > li > a:hover, .nav > li > a:focus{
+      background: #ffd218;
+}
+.open > .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 47px;}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: #ffd218;
+}
 //#DFF8FF
