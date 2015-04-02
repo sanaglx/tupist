@@ -72,12 +72,12 @@ and open the template in the editor.
 }
 /*********************************/
 .blok-shaka-index{
-  width:50%;
-  position: absolute;
-  top: 133px;
-  margin-left: -577px;
-  left: 50%;
-  color: #fff;
+    width:50%;
+    position: absolute;
+    top: 133px;
+    margin-left: -577px;
+    left: 50%;
+    color: #fff;
 }
 .blok-shaka-index p{
     font-size: 33px;
@@ -101,4 +101,51 @@ and open the template in the editor.
     position: absolute;
     top: -10px;
     left: -7px;
+}
+/********check box*****************/
+input[type=checkbox].css-checkbox,
+input[type=checkbox].css-checkbox1 {
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height:1px; 
+    width:1px; 
+    margin:-1px; 
+    padding:0;
+    border:0;
+}
+
+input[type=checkbox].css-checkbox + label.css-label,
+input[type=checkbox].css-checkbox1 + label.css-label1 {
+    padding-left:20px;
+    height:18px; 
+    display:inline-block;
+    line-height:18px;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+    font-size:15px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox:checked + label.css-label,
+input[type=checkbox].css-checkbox1:checked + label.css-label1 {
+    background-position: 0 -17px;
+}
+
+.css-label{ background-image:url(../img/elegant1.png); }
+label{font-weight: 400 ;}
+/***************************/
+.navi{
+    height: 37px;
+    margin-left: -6px;
+}
+.top-lin{
+    margin: 20px 10px;
+    border-top: 1px solid #eee;
+    /* padding: 10px; */
+}
+.h4-m{
+    font: 1.15em/1.8em pk;
+    color: #777;
 }

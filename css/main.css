@@ -41,6 +41,11 @@ i{
         relative;
     top: 0;
 }
+.border{
+    border:2px solid #eee;
+    margin-left: -15px;
+    padding: 7px 20px;
+}
 
 .stolby h3{
     font: 21px pk,arial;
@@ -431,8 +436,8 @@ span.chislo {}
 /**********************************/
 h1.lefth1{
     text-align: left;
-    width: 100%;
-    margin-left: -28px;
+    width: 98%;
+    margin-left: 5px;
     margin-bottom: 30px;
 }
 h1.lefth1:before{
@@ -446,7 +451,7 @@ h1.lefth1:after{
 .ul-vl td{vertical-align: top;}
 .ul-vl a{ font-family: pk1,arial;margin-bottom: 0;color: #22A8CF;}
 .ul-vl .li-vl{margin-bottom: 1px;}
-.ul-vl{border:2px solid #eee;}
+.ul-vl{border:2px solid #eee;/* margin: -10px; *//* padding: 4px; */}
 .ul-vl ul{margin: 0;padding: 0;}
 .ul-vl li{list-style: none;margin-bottom: 18px;}
 .ul-vl img{
@@ -459,21 +464,59 @@ h1.lefth1:after{
 .infoblok-right{font: 1em/2em pk1,arial; padding-left: 30px;}
 
 .caret1{
-  display: inline-block;
-  margin-left: 2px;
-  vertical-align: middle;
-  background: url("../img/v1.png") no-repeat 0px 2px;
-  height: 10px;
-  width: 13px;
-  border: none;}
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+    background: url("../img/v1.png") no-repeat 0px 2px;
+    height: 10px;
+    width: 13px;
+    border: none;}
 .nav > li > a:hover, .nav > li > a:focus{
-      background: #ffd218;
+    background: #ffd218;
 }
 .open > .dropdown-menu {
-  display: block;
-  position: absolute;
-  top: 47px;}
+    display: block;
+    position: absolute;
+    top: 47px;}
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background: #ffd218;
 }
+/****************************************/
+.cat-g-all .col-xs-4{
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    margin: 8px;
+    width: 30%;
+}
+.cat-g-all .text{
+    color: #ADADAD;
+}
+.cat-g-all .gl{width: 100%;}
+.cat-g-all .col-xs-4:hover{
+    border: 1px solid #EE0;
+    box-shadow: 1px 1px 5px #DDD;
+    padding: 10px;
+    background: #F5F5F5;
+}
+.cat-g p{
+    padding: 3px  0;   
+}
+.dist{
+
+}
+
+.navi-pan{
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.navi-pan li{
+    margin-bottom: 10px;
+}
+.baner{
+    margin-left: -16px;
+    
+    margin-top: 20px;
+}
+
 //#DFF8FF
