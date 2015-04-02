@@ -513,6 +513,13 @@ h1.lefth1:after{
 .navi-pan li{
     margin-bottom: 10px;
 }
+.knop-vid{float:right;}
+.knop-vid1{background: url(../img/kubiki.png)no-repeat 0px 0px; padding: 4px 12px;margin-right: 6px;}
+.knop-vid1:hover{background: url(../img/kubiki.png)no-repeat 0px -24px; padding: 4px 12px;margin-right: 6px;}
+.knop-vid2{background: url(../img/kubiki.png)no-repeat 0 -48px;padding: 4px 12px;margin-right: 6px;}
+.knop-vid2:hover{background: url(../img/kubiki.png)no-repeat 0px -72px; padding: 4px 12px;margin-right: 6px;}
+.knop-vid3{background: url(../img/kubiki.png)no-repeat 0 -96px;padding: 4px 12px; }
+.knop-vid3:hover{background: url(../img/kubiki.png)no-repeat 0px -120px; padding: 4px 12px;}
 .baner{
     margin-left: -16px;
 
