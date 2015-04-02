@@ -33,7 +33,7 @@ body , html{
     color: #555;
     height: 100%;
 }
-a{color: #0aafde;}
+a{color: #0AAFDE;}
 a:href{text-decoration: underline;}
 i{
     font-size: 1.1em; 
@@ -515,8 +515,32 @@ h1.lefth1:after{
 }
 .baner{
     margin-left: -16px;
-    
+
     margin-top: 20px;
 }
+.vse{
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em;
+}
 
+.vse a{border-bottom: 1px dashed #0AAFDE}
+
+.vse a:hover{
+    font-family: pk,arial;
+    color: #0AAFDE;
+    text-decoration: none;
+}
+.no-active{color:#999;}
+.pagination{ font-size: 0.9em;}
+.pagination>li>a{border: none;}
+.pagination>.active>a{
+    background: none;
+border: 2px solid #A7D4FF;
+color: #818181;
+padding: 1px 7px;
+margin-top: 3px;
+font-weight: 600;
+}
+.pagination > li > a:hover{background: #fff;font: 1em pk1,arial;color: #999;text-decoration: underline;}
 //#DFF8FF

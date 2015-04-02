@@ -4629,6 +4629,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .pagination > li {
   display: inline;
+  /* border: none; */
 }
 .pagination > li > a,
 .pagination > li > span {
@@ -4641,12 +4642,14 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
+  border: none;
 }
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
+  /* border: none; */
 }
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
