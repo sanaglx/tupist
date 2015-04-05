@@ -32,6 +32,9 @@ body , html{
     color: #555;
     height: 100%;
 }
+body{
+    //background: url(../imgx/sk1.jpg)no-repeat 3px -24px;
+}
 a{color: #0AAFDE;}
 a:href{text-decoration: underline;}
 h4{
@@ -40,8 +43,8 @@ h4{
     /* padding: 10px 0; */
 }
 h5{  font-size: 1.2em;
-      font-family: pk,arial;
-      color: #999;
+     font-family: pk,arial;
+     color: #999;
 }
 i{
     font-size: 1.1em; 
@@ -502,17 +505,34 @@ h1.lefth1:after{
     margin-left: 18px;
     width: 31%;
 }
-.cat-g-all .text{
-    color: #ADADAD;
-    /* vertical-align: top; */
-}
-.cat-g-all .gl{width: 100%;}
+
 .cat-g-all .ramka:hover{
     border: 1px solid #EE0;
     box-shadow: 1px 1px 5px #DDD;
     padding: 10px;
     background: #F5F5F5;
 }
+.cat-g-all .ramka1{
+    border: 1px solid #FCF1C3;
+    padding: 10px;
+    margin-left: 20px;
+    width: 31%;
+    background: none repeat scroll 0% 0% #FFFCF0;
+    margin-bottom: 20px;
+}
+.cat-g-all .ramka1:hover{
+    border: 1px solid #EE0;
+    box-shadow: 0px 0px 5px #FCF1C3;
+    padding: 10px;
+    background: #fffcf0;
+}
+
+.cat-g-all .text{
+    color: #ADADAD;
+    /* vertical-align: top; */
+}
+.cat-g-all .gl{width: 100%;}
+
 .cat-g p{
     padding: 3px  0;   
 }
@@ -591,19 +611,51 @@ h1.lefth1:after{
     width: 101%;
     margin-top: 20px;
     border:2px solid #eee;
-
     padding: 10px 0;
     position: relative;
     margin-left: 0px;
 }
+.blok-predl:hover{
+    border: 2px solid #FFCE03;
+    box-shadow: 0 0 12px 0px #BBBBBB;
+}
+
 .blok-s .text5{font-size: 1.2em;}
-.blok-s .text5:before{
+.blok-s .text5:before {
     content: '';
     background: url(../img/rub.png)no-repeat;
     padding: 10px;
     position: relative;
     float: left;
     top: 13px;
+}
+.rubl:before{
+    content: '';
+    background: url(../img/rub.png)no-repeat;
+    padding: 10px;
+    position: relative;
+    float: left;
+    top: 5px;
+}
+.circ:before{
+    content: '';
+    background: url(../img/circ.png)no-repeat;
+    padding: 10px;
+    position: relative;
+    float: left;
+    top: 5px;
+}
+.ovr:before{
+    content: '';
+    background: url(../img/ovr.png)no-repeat;
+    padding: 10px;
+    position: relative;
+    float: left;
+    top: 5px;
+}
+.textx{
+    clear:left;
+    margin-bottom: 15px;
 }
 
 

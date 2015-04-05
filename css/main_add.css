@@ -163,6 +163,43 @@ label{font-weight: 400 ;}
     position: relative;
     top: -1px;
 }
+/**********************************/
+.htora {
+    display:inline-block;  
+    position:relative;
+}
+.htora .htora_text {
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color:#fff;
+    padding:10px;
+    //background-color:rgba(0,0,0,.3);
+    opacity: 0.9;
+}
+.htora .colr1{background: #9435cc;}
+.htora .colr2{background: #f9b61e;}
+.htora .colr3{background: #d13368;}
+.htora .colr4{background: #18b6ec;}
+.htora .colr5{background: #1cc1ae;}
+
+
+
+.htora h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+.htora span {
+    font-size:12px;
+}
+
+/**********************************/
 .colory{color:#fe9f09;padding: 2px 0;}
 .glyphicon-earphone:before{color:#FFF;
                            background: #FAA432;
