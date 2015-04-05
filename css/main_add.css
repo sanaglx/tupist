@@ -168,7 +168,7 @@ label{font-weight: 400 ;}
     display:inline-block;  
     position:relative;
 }
-.htora .htora_text {
+.htora .htora_text{
     display:block;
     position:absolute;
     left:0;
@@ -181,8 +181,9 @@ label{font-weight: 400 ;}
     color:#fff;
     padding:10px;
     //background-color:rgba(0,0,0,.3);
-    opacity: 0.9;
+    opacity: 0.1;
 }
+.htora .htora_text:hover{opacity: 0.9;}
 .htora .colr1{background: #9435cc;}
 .htora .colr2{background: #f9b61e;}
 .htora .colr3{background: #d13368;}
