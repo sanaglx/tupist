@@ -37,6 +37,12 @@ body{
 }
 a{color: #0AAFDE;}
 a:href{text-decoration: underline;}
+.h3-norm h3{
+    font-size: 1.1em;
+    color: #555;
+    font-family: pk,arial;
+    text-transform: none;
+}
 h4{
     font-family: pk,arial;
     color: #999;
