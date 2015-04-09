@@ -7,7 +7,22 @@ and open the template in the editor.
     Created on : 26.03.2015, 21:37:57
     Author     sana
 */
+.knop-vid a{
+    font-size: 1.7em;
+    text-decoration: none;
+}
+.knop-vid .a:hover{
+    color:#FAA432;
+}
 .baner img{width: 100%}
+.pading-10{padding: 10px 0;}
+.pading-20{padding: 20px 0;}
+.kn-b{
+    padding: 8px 35px !important;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-family: pk,arial;
+}
 .bootstrap-select.btn-group .btn .caret {
     top: 47%;
     vertical-align: middle;
@@ -222,9 +237,9 @@ label{font-weight: 400 ;}
 
 /**********************************/
 .colory{color:#fe9f09;padding: 2px 0;}
-.glyphicon-earphone:before{color:#FFF;
-                           background: #FAA432;
-                           font-size: 0.6em;padding: 2px 3px;position: relative;top: -3px;margin-right: -1px;}
+.glyphicon-earphone:before, .glyphicon-plus:before{color:#FFF;
+                           background: #F5B560;
+                           font-size: 0.6em;padding: 2px 3px;position: relative;top: -2px;margin-right: -1px;}
 
 .grad-blue-u:hover{background: #0193d8;
                    background: -moz-linear-gradient(top,  #0193d8 0%, #02a0e9 9%, #02bff0 96%, #01b2df 100%);
@@ -274,3 +289,31 @@ label{font-weight: 400 ;}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb93f', endColorstr='#fff6f1',GradientType=0 );
     text-shadow: 0 1px 1px #444;
 }
+
+/******************knoka vverh*********************/
+/* Back to top button */
+#back-to-top{
+    position:fixed; 
+    z-index: 9999999; 
+    display:none; 
+    bottom:70px; 
+    right:15px; 
+    cursor:pointer;
+}
+#back-to-top i{
+    width: 50px; 
+    height: 50px; 
+    display:block; 
+    color: #fff; 
+    background: #26ADE4 ; 
+    text-align:center; 
+    font-size:16px; 
+    line-height: 50px; 
+    border-radius: 5px;
+    -webkit-transition:  .3s all;
+    -moz-transition:  .3s all;
+    -ms-transition:  .3s all;
+    -o-transition:  .3s all;
+    transition:  .3s all;
+}
+#back-to-top i:hover{background:#333;}

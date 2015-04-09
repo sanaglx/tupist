@@ -37,6 +37,12 @@ body{
 }
 a{color: #0AAFDE;}
 a:href{text-decoration: underline;}
+h2{
+    font-size: 1.3em;
+    margin: 0;
+    padding: 25px 0;
+    font-family: pk,arial;
+}
 .h3-norm h3{
     font-size: 1.1em;
     color: #555;
@@ -526,6 +532,16 @@ h1.lefth1:after{
     background: none repeat scroll 0% 0% #FFFCF0;
     margin-bottom: 20px;
 }
+.ramka2{
+    border: 1px solid #FCF1C3;
+    padding: 25px;
+    background: none repeat scroll 0% 0% #FFFCF0;
+    margin-bottom: 20px;
+}
+.ramka2 a{
+    font:14px/17px pk1,arial;
+    text-shadow: 0 0 1px #ccc;
+}
 .cat-g-all .ramka1:hover{
     border: 1px solid #EE0;
     box-shadow: 0px 0px 5px #FCF1C3;
@@ -555,12 +571,20 @@ h1.lefth1:after{
     margin-bottom: 10px;
 }
 .knop-vid{float:right;margin-right: -36px;margin-top: -2px;}
+.knop-vid-l{float:left;margin-left:0px;margin-top: -2px;}
 .knop-vid1{background: url(../img/kubiki.png)no-repeat 0px 0px; padding: 3px 12px;margin-right: 6px;}
 .knop-vid1:hover{background: url(../img/kubiki.png)no-repeat 0px -24px; padding: 3px 12px;margin-right: 6px;}
 .knop-vid2{background: url(../img/kubiki.png)no-repeat 0 -48px;padding: 3px 12px;margin-right: 6px;}
 .knop-vid2:hover{background: url(../img/kubiki.png)no-repeat 0px -72px; padding: 3px 12px;margin-right: 6px;}
 .knop-vid3{background: url(../img/kubiki.png)no-repeat 0 -96px;padding: 3px 12px; }
 .knop-vid3:hover{background: url(../img/kubiki.png)no-repeat 0px -120px; padding: 3px 12px;}
+.knop-vid4{background: url(../img/zn3.png)no-repeat 0 9px;padding: 6px 19px; }
+.knop-vid4:hover{background: url(../img/zn3.png)no-repeat 0px -23px; padding: 6px 19px;}
+.knop-vid5{background: url(../img/zn2.png)no-repeat 0 9px;padding: 6px 19px; }
+.knop-vid5:hover{background: url(../img/zn2.png)no-repeat 0px -23px; padding: 4px 19px;}
+.knop-vid6{background: url(../img/zn1.png)no-repeat 0 9px;padding: 6px 16px; }
+.knop-vid6:hover{background: url(../img/zn1.png)no-repeat 0px -23px; padding: 4px 19px;}
+
 .baner{
     margin-left: -16px;
 
@@ -676,6 +700,7 @@ h1.lefth1:after{
 .blok-predl .gl{width: 200px;}
 .blok-predl .cat-g{margin-left: 15px;}
 .h-blok a{  border-bottom: 1px dashed #0AAFDE;  color: #0AAFDE;}
+.h-blok a:hover{text-decoration: none;color:#2A6496;} 
 .row7{
     padding: 0px 0px 20px;
     display: block;
