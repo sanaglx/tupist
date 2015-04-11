@@ -7,6 +7,13 @@ and open the template in the editor.
     Created on : 26.03.2015, 21:37:57
     Author     sana
 */
+.panel-default > .panel-heading {
+background: none;
+    }
+.panel-group .panel-heading + .panel-collapse > .panel-body{
+    border-top: none;
+}    
+a{outline: none !important;}
 .knop-vid a{
     font-size: 1.7em;
     text-decoration: none;
@@ -17,12 +24,34 @@ and open the template in the editor.
 .baner img{width: 100%}
 .pading-10{padding: 10px 0;}
 .pading-20{padding: 20px 0;}
+.r-slider{
+    width: 1170px;
+    
+    margin: 0 auto;
+    overflow: hidden;
+    /* position: absolute; */
+    z-index: 0;
+}
 .kn-b{
     padding: 8px 35px !important;
     font-size: 1.1em;
     text-transform: uppercase;
     font-family: pk,arial;
 }
+
+.collapsed .str-ac{
+       background: url(../img/v.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-top: 7px 
+}
+.str-ac{
+    background: url(../img/v.jpg) no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-top: 7px
+}
+
 .bootstrap-select.btn-group .btn .caret {
     top: 47%;
     vertical-align: middle;
@@ -107,12 +136,14 @@ and open the template in the editor.
 }
 /*********************************/
 .blok-shaka-index{
-    width:50%;
-    position: absolute;
-    top: 133px;
-    margin-left: -577px;
+    /* width:50%; */
+    position: relative;
+    top: 59px;
+    margin-left: -582px;
     left: 50%;
     color: #fff;
+    width: 582px;
+    float: left;
 }
 .blok-shaka-index p{
     font-size: 33px;
@@ -125,6 +156,7 @@ and open the template in the editor.
 .blok-shaka-index .h-4{
     font-size: 1.1em;
     width: 85%;
+    height: 100px;
 }
 
 .p-plk{
@@ -317,3 +349,61 @@ label{font-weight: 400 ;}
     transition:  .3s all;
 }
 #back-to-top i:hover{background:#333;}
+
+.ten-sl{
+  display: block;
+  width: 100%;
+  /* height: 34px; */
+  padding: 6px 12px;
+  font: 14px/24px pk1,arial;
+  /* line-height: 1.42857143; */
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  /* border-radius: 4px; */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.ten-sl:hover {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.stolby .ten-sl img{
+    width: 250px;
+    height: 160px;
+}
+.stolby .ten-sl a{
+    color:#555;
+    line-height: 1.42857143;
+}
+.stolby .ten-sl a:hover{
+    font: 14px/24px pk1,arial;
+    color:#02b0ed;
+    /* line-height: 1.428571; */
+    text-shadow: 0px 1px 0px rgba(173, 227, 255, 0.94);
+}
+
+.stolby .ten-slt p{
+    font: 14px/24px pk1,arial;
+}
+.ov-h{
+    position: absolute;
+    
+    top: 95px;
+    /* right: 0; */
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1170px;
+}
+.bootstrap-select .btn-default:focus{
+    background: none;
+}
