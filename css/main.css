@@ -126,6 +126,9 @@ i{
     display: block;
     margin-left: -7px;
 }
+.menu-blue .nav li{
+    padding: 4px 51px 0 0; 
+}
 .nav li a{
     font-family: pk,arial;
     font-size: 1em;
@@ -456,6 +459,7 @@ span.chislo {}
     /* margin-bottom: -10px; */
     position: relative;
     top: 2px;
+    /* height: 82px; */
 }
 .menu-blue li a{
     font-family: pk1,arial;
@@ -580,14 +584,14 @@ h1.lefth1:after{
 .navi-pan li{
     margin-bottom: 10px;
 }
-.knop-vid{float:right;margin-right: -36px;margin-top: -2px;}
+.knop-vid{float:right;margin-right: -36px;margin-top: -2px;height: 24px;overflow: hidden;}
 .knop-vid-l{float:left;margin-left:0px;margin-top: -2px;}
-.knop-vid1{background: url(../img/kubiki.png)no-repeat 0px 0px; padding: 3px 12px;margin-right: 6px;}
+.knop-vid1{background: url(../img/kubiki.png)no-repeat 0px 3px; padding: 3px 12px;margin-right: 6px;}
 .knop-vid1:hover{background: url(../img/kubiki.png)no-repeat 0px -24px; padding: 3px 12px;margin-right: 6px;}
-.knop-vid2{background: url(../img/kubiki.png)no-repeat 0 -48px;padding: 3px 12px;margin-right: 6px;}
-.knop-vid2:hover{background: url(../img/kubiki.png)no-repeat 0px -72px; padding: 3px 12px;margin-right: 6px;}
-.knop-vid3{background: url(../img/kubiki.png)no-repeat 0 -96px;padding: 3px 12px; }
-.knop-vid3:hover{background: url(../img/kubiki.png)no-repeat 0px -120px; padding: 3px 12px;}
+.knop-vid2{background: url(../img/kubiki.png)no-repeat 0 -45px;padding: 3px 12px;margin-right: 6px;}
+.knop-vid2:hover{background: url(../img/kubiki.png)no-repeat 0px -69px; padding: 3px 12px;margin-right: 6px;}
+.knop-vid3{background: url(../img/kubiki.png)no-repeat 0 -93px;padding: 3px 12px; }
+.knop-vid3:hover{background: url(../img/kubiki.png)no-repeat 0px -117px; padding: 3px 12px;}
 .knop-vid4{background: url(../img/zn3.png)no-repeat 0 9px;padding: 6px 19px; }
 .knop-vid4:hover{background: url(../img/zn3.png)no-repeat 0px -23px; padding: 6px 19px;}
 .knop-vid5{background: url(../img/zn2.png)no-repeat 0 9px;padding: 6px 19px; }
@@ -722,4 +726,36 @@ h1.lefth1:after{
 
 .h-5 a{font-size: 1.2em;}
 .h-5{padding: 15px 6px 8px 0;}
+
+/*****************************************/
+.r-74{ float: left; margin: 0px 0 10px 10px;}
+.r-74 img{width:156px;height: 110px;}
+.min-icon{float: left; margin-right: 5px;}
+.nomera p{
+    padding: 0  0 10px 0;
+}
+.nomera .h5{
+    /* padding: 0; */
+    margin: 0;
+    font: 1.1em pk,arial;
+}
+.nomera .text-y{
+    font: 1.1em pk;
+    background: #fefad0;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.img-w{
+    width: 130px;
+    height: 100px;
+    float: left;
+}
+.tab-a.table .tt{  background: #f7fdff;}
+.tab-a th, .tab-a td{
+    padding: 15px 8px !important;
+    text-align: center;
+}
+.uslugi{}
+.uslugi li{list-style-type: none;font-size: 1.1em;}
+.uslugi  li:before { content: "→";  padding: 0 8px 0 0; font-size: 1.4em;}
 //#DFF8FF

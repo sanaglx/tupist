@@ -7,6 +7,11 @@ and open the template in the editor.
     Created on : 26.03.2015, 21:37:57
     Author     sana
 */
+
+.row-15{margin-top: 15px;margin-bottom: 15px;}
+.row-20{margin-top: 20px;margin-bottom: 20px}
+.row-35{margin-top: 35px;margin-bottom: 35px}
+
 .panel-default > .panel-heading {
 background: none;
     }
@@ -93,8 +98,7 @@ a{outline: none !important;}
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.row-20{margin: 20px 0;}
-.row-35{margin: 35px 0;}
+
 /*************************************************/
 .cont-okno{
     /* width: 29%; */
@@ -283,7 +287,7 @@ label{font-weight: 400 ;}
                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0193d8', endColorstr='#01b2df',GradientType=0 );
                    border: 0;
                    padding: 8px 23px;
-}
+text-shadow: 0 1px 1px #444;}
 .grad-blue-u{
     background: #fcfaff;
     background: -moz-linear-gradient(top,  #fcfaff 0%, #08c9f2 0%, #6ddbf2 0%, #04c0ff 0%, #09b7f3 0%, #00bfe8 16%, #03b6f0 22%, #02bbf1 25%, #01aaeb 63%, #02aaeb 69%, #02a7e9 72%, #00a8e2 75%, #03a4ec 81%, #03a5ee 84%, #00a4eb 88%, #039ee0 100%, #26abec 100%, #56c7ff 100%, #26abec 101%);
@@ -295,6 +299,7 @@ label{font-weight: 400 ;}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfaff', endColorstr='#26abec',GradientType=0 );
     border: 0;
     padding: 8px 23px;
+    text-shadow: 0 -1px 1px #444;
 }
 
 .grad-orang-u{
@@ -406,4 +411,22 @@ label{font-weight: 400 ;}
 }
 .bootstrap-select .btn-default:focus{
     background: none;
+}
+
+/**************************** img size ***************************/
+.r-74-link {
+  display: inline-block;
+  padding: 4px;
+  margin: 0 0.5rem 1rem 0.5rem;
+  background-color: #fff;
+  line-height: 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
 }
