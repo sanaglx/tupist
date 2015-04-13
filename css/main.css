@@ -116,13 +116,13 @@ i{
     font-size: 1.1em;
     padding: 0px;
 }
-.nav li{
+ .menu .nav li{
     /* padding: 4px 51px 0 0; */
     /* text-align: right; */
     /* text-align: justify; */
     /* width: 217px; */
     /* padding: 0 0 0 0px; */
-    padding: 5px 0  0 71px;
+    padding: 5px 0  0 78px;
     display: block;
     margin-left: -7px;
 }
@@ -229,7 +229,7 @@ h1:after {  left: 30px;  margin-right: -50%;}
 }
 
 .inp-brad{
-    position: absolute;
+    /* position: absolute; */
     left: 472px;
     top: 248px;
     padding: 14px 58px;
@@ -533,10 +533,15 @@ h1.lefth1:after{
 }
 
 .cat-g-all .ramka:hover{
-    border: 1px solid #EE0;
-    box-shadow: 1px 1px 5px #DDD;
-    padding: 10px;
-    background: #F5F5F5;
+    /* border: 1px solid #EE0; */
+    /* box-shadow: 1px 1px 5px #DDD; */
+    /* padding: 10px; */
+    /* background: #F5F5F5; */
+    border-color: #66afe9;    outline: 0;    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    transition: 1s;
+}
+.cat-g-all .ramka:not(:hover){
+   transition: 1s; 
 }
 .cat-g-all .ramka1{
     border: 1px solid #FCF1C3;
@@ -545,6 +550,7 @@ h1.lefth1:after{
     width: 31%;
     background: none repeat scroll 0% 0% #FFFCF0;
     margin-bottom: 20px;
+    transition: 0.5s;
 }
 .ramka2{
     border: 1px solid #FCF1C3;
@@ -658,10 +664,12 @@ h1.lefth1:after{
     padding: 10px 0;
     position: relative;
     margin-left: 0px;
+    transition: 1s;
 }
 .blok-predl:hover{
     border: 2px solid #FFCE03;
     box-shadow: 0 0 12px 0px #BBBBBB;
+    transition: 1s;
 }
 
 .blok-s .text5{font-size: 1.2em;}
@@ -757,5 +765,5 @@ h1.lefth1:after{
 }
 .uslugi{}
 .uslugi li{list-style-type: none;font-size: 1.1em;}
-.uslugi  li:before { content: "→";  padding: 0 8px 0 0; font-size: 1.4em;}
+.uslugi  li:before { content: "ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢";  padding: 0 8px 0 0; font-size: 1.4em;}
 //#DFF8FF
