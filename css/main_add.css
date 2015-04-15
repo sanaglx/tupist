@@ -19,7 +19,7 @@ and open the template in the editor.
     display: block;
     float: left;
 }
-.h3-norm{
+.h3-max{
     font:1.3em/1.7em pk,arial; 
 }
 .zv-after:after{
@@ -277,7 +277,8 @@ label{font-weight: 400 ;}
 .htora .colr4{background: #18b6ec;}
 .htora .colr5{background: #1cc1ae;}
 
-.tbl1{margin-left: 40px; }
+.tbl1{}
+.tbl2{margin-left: 40px; }
 
 
 .htora h6 {
