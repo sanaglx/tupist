@@ -19,6 +19,9 @@ and open the template in the editor.
     display: block;
     float: left;
 }
+.h3-norm{
+    font:1.3em/1.7em pk,arial; 
+}
 .zv-after:after{
     content: '*';
     color:red;

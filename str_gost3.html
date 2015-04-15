@@ -513,21 +513,226 @@
                     </div>
 
                 </div>
-            
-            <div class="row">
-                <div class="col-xs-6 text-center"> 
-                    <h5>Отдыхали здесь? Поделитесь впечатлениями!</h5>
-                    <button class="btn btn-warning grad-orang-u" href="#" style="padding: 14px 40px;font-size: 1.2em;">НАПИШИТЕ ОТЗЫВ</button> 
-                </div>
-                <div class="col-xs-6 text-center"> 
-                    <h5>Хотите отдохнуть? Бронируйте номер!</h5>
-                    <button class="btn btn-warning grad-blue-u" href="#" style="padding: 14px 40px;font-size: 1.2em;">ЗАБРОНИРОВАТЬ</button>
+
+                <div class="row">
+                    <div class="col-xs-6 text-center"> 
+                        <h5>Отдыхали здесь? Поделитесь впечатлениями!</h5>
+                        <button class="btn btn-warning grad-orang-u" href="#myModal" data-toggle="modal" style="padding: 14px 40px;font-size: 1.2em;">НАПИШИТЕ ОТЗЫВ</button> 
+                    </div>
+                    <div class="col-xs-6 text-center"> 
+                        <h5>Хотите отдохнуть? Бронируйте номер!</h5>
+                        <button class="btn btn-warning grad-blue-u" href="#myModal_z" data-toggle="modal" style="padding: 14px 40px;font-size: 1.2em;">ЗАБРОНИРОВАТЬ</button>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
         <div class="clearr"></div>
 
+
+        <!-- Button HTML (to Trigger Modal) 
+        <!-- Modal HTML -->
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content row">
+                    <div class="col-xs-12"> 
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title text-center">Добавить отзыв</h4>
+                        </div>
+
+                        <form class="form-otzv "> 
+                            <table class="tbl1" border="0" width="100%">
+                                <tr>
+                                    <td style="width: 395px;">
+                                        <p class="small-pk pading-10">Период отдыха</p>
+                                        <select class="form-control selectpicker show-tick " data-width="100px">
+                                            <option>Месяц</option>
+                                            <option>Январь</option>
+                                            <option>Февраль</option>
+                                        </select> 
+                                        &nbsp;&nbsp;
+                                        <select class="selectpicker show-tick" data-width="100px">
+                                            <option>Год</option>
+                                            <option>1981</option>
+                                            <option>1982</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div>
+
+                                            <div class="small-pk " style="padding: 20px 0 10px 0;">Дайте оценку</div>  
+
+
+                                            <div class="pading-10">    
+                                                <span class="bl-sw zv-after">Расположение</span>     
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                <span class="">4.0</span>
+                                            </div>  
+                                            <div class="">    
+                                                <span class="bl-sw zv-after">Обслуживание</span>     
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                <span class="">4.0</span>
+                                            </div>  
+                                            <div class="pading-10">    
+                                                <span class="bl-sw zv-after">Цена/кач-во</span>     
+                                                <span class="glyphicon glyphicon-star colory"></span>
+                                                <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                <span class="">4.0</span>
+                                            </div>  
+
+                                        </div>
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style=" width: 22%;">
+                                        <div class="pading-10">
+                                            <p class="small-pk" >Ваши контакты</p>
+                                            <div class="input-group inp-rad " > 
+                                                <input class="form-control" type="text" name="otezd" placeholder= "ФИО"><span class="zv-after" style="position: absolute;"></span>
+                                            </div>
+                                            <div class="input-group inp-rad" > 
+                                                <input class="form-control" type="text" name="otezd" placeholder= "Телефон">
+                                            </div>
+                                            <div class="input-group inp-rad " > 
+                                                <input class="form-control" type="text" name="otezd" placeholder= "Email"><span class="zv-after" style="position: absolute;"></span>
+                                            </div>
+                                            <div class="input-group inp-rad " > 
+                                                <textarea name="otezd" class="form-control" placeholder= "Текст отзыва" rows="5" style="width:500px;"></textarea><span class="zv-after" style="position: absolute;"></span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div  class="text-center"><button style=" padding: 12px 61px;" class="btn btn-warning grad-blue-u " href="#">ОТПРАВИТЬ</button></div>
+                        </form> 
+                        <div class="clearr"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- / end modal -->
+        <!-- Modal HTML -->
+        <div id="myModal_z" class="modal fade">
+            <div class="modal-dialog" style="width: 775px;">
+                <div class="modal-content row">
+                    <div class="col-xs-12"> 
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title text-center">Заявка на бронирование</h4>
+                        </div>
+
+                        
+                            <div class="row">
+                        <form class="form-otzv ">         
+                                <div class="col-xs-8">
+
+                                    <table class="tbl1" border="0" width="100%">
+                                        <tr>
+                                            <td style="width: 395px;">
+                                                <div style="float: left; width:235px;margin-top: 20px;">
+                                                    <p class="small-pk">Заезд</p>
+                                                    <div class='input-group date' id='datetimepicker1' style="width: 216px;">
+                                                        <input type='text' class="form-control" />
+                                                        <span class="input-group-addon">
+                                                            <span class="glyphicon glyphicon-calendar"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div style="float: left; width:235px;margin-top: 20px;">
+                                                    <p id="ddc"  class="small-pk">Отезд</p>
+                                                    <div class="input-group inp-rad" > 
+                                                        <input class="form-control" type="text" name="otezd" placeholder= "Выбрать дату">
+                                                    </div>
+                                                </div>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="width: 395px;">
+                                                <p class="small-pk pading-10">Количество людей</p>
+                                                <select class="form-control selectpicker show-tick " data-width="140px">
+                                                    <option>Взрослые</option>
+                                                    <option>1 взрослый</option>
+                                                    <option>2 взрослых</option>
+                                                    <option>3 взрослых</option>
+                                                    <option>4 взрослых</option>
+                                                </select> 
+                                                &nbsp;&nbsp;
+                                                <select class="selectpicker show-tick" data-width="140px">
+                                                    <option>Дети</option>
+                                                    <option>1 ребенок</option>
+                                                    <option>2 детей</option>
+                                                    <option>3 детей</option>
+                                                    <option>4 детей</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style=" width: 22%;">
+                                                <div class="pading-20">
+                                                    <p class="small-pk" >Ваши контакты</p>
+                                                    <div class="input-group inp-rad " > 
+                                                        <input class="form-control" type="text" name="otezd" placeholder= "ФИО"><span class="zv-after" style="position: absolute;"></span>
+                                                    </div>
+                                                    <div class="input-group inp-rad" > 
+                                                        <input class="form-control" type="text" name="otezd" placeholder= "Телефон">
+                                                    </div>
+                                                    <div class="input-group inp-rad " > 
+                                                        <input class="form-control" type="text" name="otezd" placeholder= "Email"><span class="zv-after" style="position: absolute;"></span>
+                                                    </div>
+                                                    <div class="input-group inp-rad " > 
+                                                        <textarea name="otezd" class="form-control" placeholder= "Сообщение" rows="3" style="width:455px;"></textarea>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>   
+                                    <div  class="text-center"><button style=" padding: 12px 61px;" class="btn btn-warning grad-blue-u " href="#">ОТПРАВИТЬ</button></div>
+                                  
+                                </div>
+                                </form>
+                                <div style="col-xs-4  ">
+                                    <div class="bord-left-dash" >
+                                        <img src="img/mus.png" />
+                                        <br />
+                                        <a class="h3-norm" href="">Посмотреть<br /> наши контакты</a>
+                                        <p class="telef-sr">+7&nbsp;(861)&nbsp; 333-12-76</p>
+                                        <div class="podpis">Администратор</div>
+                                        <p class="telef-sr">+7&nbsp;(861)&nbsp; 333-12-76</p>
+                                        <div class="podpis">Администратор</div>
+                                        <p class="telef-sr">+7 &nbsp;(861)&nbsp; 333-12-76</p>
+                                        <div class="podpis">Управляющий</div>
+                                    </div>
+                                </div>   
+                            </div>
+
+                       
+                        <div class="clearr"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- / end modal -->
 
         <!-- //////////--------------FOOTER-----------------------/////////////////-->
 
