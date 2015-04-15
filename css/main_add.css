@@ -11,10 +11,23 @@ and open the template in the editor.
 .row-15{margin-top: 15px;margin-bottom: 15px;}
 .row-20{margin-top: 20px;margin-bottom: 20px}
 .row-35{margin-top: 35px;margin-bottom: 35px}
+.small-pk{
+    font-family: pk,arial
+}
+.bl-sw{
+    width:150px;
+    display: block;
+    float: left;
+}
+.zv-after:after{
+    content: '*';
+    color:red;
+    padding: 2px;
 
+}
 .panel-default > .panel-heading {
-background: none;
-    }
+    background: none;
+}
 .panel-group .panel-heading + .panel-collapse > .panel-body{
     border-top: none;
 }    
@@ -31,7 +44,7 @@ a{outline: none !important;}
 .pading-20{padding: 20px 0;}
 .r-slider{
     width: 1170px;
-    
+
     margin: 0 auto;
     overflow: hidden;
     /* position: absolute; */
@@ -45,7 +58,7 @@ a{outline: none !important;}
 }
 
 .collapsed .str-ac{
-       background: url(../img/v.png) no-repeat;
+    background: url(../img/v.png) no-repeat;
     width: 24px;
     height: 24px;
     margin-top: 7px 
@@ -261,6 +274,7 @@ label{font-weight: 400 ;}
 .htora .colr4{background: #18b6ec;}
 .htora .colr5{background: #1cc1ae;}
 
+.tbl1{margin-left: 40px; }
 
 
 .htora h6 {
@@ -274,8 +288,8 @@ label{font-weight: 400 ;}
 /**********************************/
 .colory{color:#fe9f09;padding: 2px 0;}
 .glyphicon-earphone:before, .glyphicon-plus:before{color:#FFF;
-                           background: #F5B560;
-                           font-size: 0.6em;padding: 2px 3px;position: relative;top: -2px;margin-right: -1px;}
+                                                   background: #F5B560;
+                                                   font-size: 0.6em;padding: 2px 3px;position: relative;top: -2px;margin-right: -1px;}
 
 .grad-blue-u:hover{background: #0193d8;
                    background: -moz-linear-gradient(top,  #0193d8 0%, #02a0e9 9%, #02bff0 96%, #01b2df 100%);
@@ -287,7 +301,7 @@ label{font-weight: 400 ;}
                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0193d8', endColorstr='#01b2df',GradientType=0 );
                    border: 0;
                    padding: 8px 23px;
-text-shadow: 0 1px 1px #444;}
+                   text-shadow: 0 1px 1px #444;}
 .grad-blue-u{
     background: #fcfaff;
     background: -moz-linear-gradient(top,  #fcfaff 0%, #08c9f2 0%, #6ddbf2 0%, #04c0ff 0%, #09b7f3 0%, #00bfe8 16%, #03b6f0 22%, #02bbf1 25%, #01aaeb 63%, #02aaeb 69%, #02a7e9 72%, #00a8e2 75%, #03a4ec 81%, #03a5ee 84%, #00a4eb 88%, #039ee0 100%, #26abec 100%, #56c7ff 100%, #26abec 101%);
@@ -356,33 +370,33 @@ text-shadow: 0 1px 1px #444;}
 #back-to-top i:hover{background:#333;}
 
 .ten-sl{
-  display: block;
-  width: 100%;
-  /* height: 34px; */
-  padding: 6px 12px;
-  font: 14px/24px pk1,arial;
-  /* line-height: 1.42857143; */
-  color: #555555;
-  background-color: #ffffff;
-  background-image: none;
-  border: 1px solid #cccccc;
-  /* border-radius: 4px; */
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    display: block;
+    width: 100%;
+    /* height: 34px; */
+    padding: 6px 12px;
+    font: 14px/24px pk1,arial;
+    /* line-height: 1.42857143; */
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    /* border-radius: 4px; */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 .ten-sl:hover {
-  border-color: #66afe9;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  transition: 1s;
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    transition: 1s;
 }
 .ten-sl:not(:hover){
- transition: 1s;
+    transition: 1s;
 } 
 
 .stolby .ten-sl img{
@@ -405,7 +419,7 @@ text-shadow: 0 1px 1px #444;}
 }
 .ov-h{
     position: absolute;
-    
+
     top: 95px;
     /* right: 0; */
     overflow: hidden;
@@ -419,18 +433,18 @@ text-shadow: 0 1px 1px #444;}
 
 /**************************** img size ***************************/
 .r-74-link {
-  display: inline-block;
-  padding: 4px;
-  margin: 0 0.5rem 1rem 0.5rem;
-  background-color: #fff;
-  line-height: 0;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-transition: background-color 0.5s ease-out;
-  -moz-transition: background-color 0.5s ease-out;
-  -o-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
+    display: inline-block;
+    padding: 4px;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background-color: #fff;
+    line-height: 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
 }

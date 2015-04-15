@@ -408,72 +408,93 @@
                             <div class="col-xs-12"> 
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title">Добавить отзыв</h4>
+                                    <h4 class="modal-title text-center">Добавить отзыв</h4>
                                 </div>
 
                                 <form class="form-otzv "> 
                                     <table class="tbl1" border="0" width="100%">
                                         <tr>
                                             <td style="width: 395px;">
-                                                <div class ="form-1 pading-10">
-                                                    <p>Период отдыха</p>
-                                                    <select class="form-control selectpicker show-tick " data-width="100px">
-                                                        <option>Месяц</option>
-                                                        <option>Январь</option>
-                                                        <option>Февраль</option>
-                                                    </select> 
-                                                </div>
-                                                <div class ="form-1 pading-10">   
-                                                    <select class="selectpicker show-tick" data-width="100px">
-                                                        <option>Год</option>
-                                                        <option>1981</option>
-                                                        <option>1982</option>
-                                                    </select>
+                                                <p class="small-pk pading-10">Период отдыха</p>
+                                                <select class="form-control selectpicker show-tick " data-width="100px">
+                                                    <option>Месяц</option>
+                                                    <option>Январь</option>
+                                                    <option>Февраль</option>
+                                                </select> 
+                                                &nbsp;&nbsp;
+                                                <select class="selectpicker show-tick" data-width="100px">
+                                                    <option>Год</option>
+                                                    <option>1981</option>
+                                                    <option>1982</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <div>
+
+                                                    <div class="small-pk " style="padding: 20px 0 10px 0;">Дайте оценку</div>  
+
+                                                    
+                                                    <div class="pading-10">    
+                                                        <span class="bl-sw zv-after">Расположение</span>     
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                        <span class="">4.0</span>
+                                                    </div>  
+                                                    <div class="">    
+                                                        <span class="bl-sw zv-after">Обслуживание</span>     
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                        <span class="">4.0</span>
+                                                    </div>  
+                                                    <div class="pading-10">    
+                                                        <span class="bl-sw zv-after">Цена/кач-во</span>     
+                                                        <span class="glyphicon glyphicon-star colory"></span>
+                                                        <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                        <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                        <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                        <span class="glyphicon glyphicon-star-empty colory"></span>
+                                                        <span class="">4.0</span>
+                                                    </div>  
+
                                                 </div>
 
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <h4>Дайте оценку</h4>
-                                                    <p>Расположение</p>
-                                                    <p>Обслуживание</p>
-                                                    <p>Цена/кач-во</p>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                       
+
                                         <tr>
                                             <td style=" width: 22%;">
-                                                <div>
-                                                    <p>Ваши контакты</p>
-                                                    <div class="input-group inp-rad" > 
-                                                        <input class="form-control" type="text" name="otezd" placeholder= "ФИО">
+                                                <div class="pading-10">
+                                                    <p class="small-pk" >Ваши контакты</p>
+                                                    <div class="input-group inp-rad " > 
+                                                        <input class="form-control" type="text" name="otezd" placeholder= "ФИО"><span class="zv-after" style="position: absolute;"></span>
                                                     </div>
                                                     <div class="input-group inp-rad" > 
                                                         <input class="form-control" type="text" name="otezd" placeholder= "Телефон">
                                                     </div>
-                                                    <div class="input-group inp-rad" > 
-                                                        <input class="form-control" type="text" name="otezd" placeholder= "Email">
+                                                    <div class="input-group inp-rad " > 
+                                                        <input class="form-control" type="text" name="otezd" placeholder= "Email"><span class="zv-after" style="position: absolute;"></span>
                                                     </div>
-                                                    <div class="input-group inp-rad" > 
-                                                        <input class="form-control" type="text" name="otezd" placeholder= "Текст отзыва">
+                                                    <div class="input-group inp-rad " > 
+                                                        <textarea name="otezd" class="form-control" placeholder= "Текст отзыва" rows="5" style="width:500px;"></textarea><span class="zv-after" style="position: absolute;"></span>
                                                     </div>
                                                 </div>
                                             </td>
                                         </tr>
-                                        <tr><td><button class="btn btn-warning grad-blue-u" href="#">ОТПРАВИТЬ</button></td></tr>
-
-                                    </table>
-
-                                    
+                                       </table>
+                                    <div  class="text-center"><button style=" padding: 12px 61px;" class="btn btn-warning grad-blue-u " href="#">ОТПРАВИТЬ</button></div>
                                 </form> 
+                                <div class="clearr"></div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
