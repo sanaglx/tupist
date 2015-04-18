@@ -738,6 +738,13 @@ h1.lefth1:after{
 /*****************************************/
 .r-74{ float: left; margin: 0px 0 10px 10px;}
 .r-74 img{width:156px;height: 110px;}
+.r-75{ float: left; margin: 0px 0 10px 10px;}
+.r-75 img{width:152px;height: 104px;}
+.vyb_file{
+    position: absolute;
+  right: -16px;
+  bottom: 2px;
+}
 .min-icon{float: left; margin-right: 5px;}
 .nomera p{
     padding: 0  0 10px 0;

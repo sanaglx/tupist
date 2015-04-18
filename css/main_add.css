@@ -31,6 +31,15 @@ and open the template in the editor.
 .panel-default > .panel-heading {
     background: none;
 }
+
+.panel-default > .panel-heading > a {
+   text-decoration: none;
+   color:#555;
+}
+.panel-default > .panel-heading > a.collapsed {
+   color:rgb(51, 197, 231);
+}
+
 .panel-group .panel-heading + .panel-collapse > .panel-body{
     border-top: none;
 }    
