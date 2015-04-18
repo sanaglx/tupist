@@ -462,3 +462,8 @@ label{font-weight: 400 ;}
     -o-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
 }
+.razmer{
+    position: absolute;
+    top:155px;
+    left: 0;
+}
