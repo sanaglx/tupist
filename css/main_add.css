@@ -469,3 +469,7 @@ label{font-weight: 400 ;}
     top:155px;
     left: 0;
 }
+.br-rad .btn{
+    border-radius: 4px !important;
+}
+.br-rad .btn-default:hover{background: #fff;}
