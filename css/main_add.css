@@ -408,14 +408,16 @@ label{font-weight: 400 ;}
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
     transition: 1s;
+    background: #F1FFFF;
 }
 .ten-sl:not(:hover){
     transition: 1s;
 } 
 
 .stolby .ten-sl img{
-    width: 250px;
+    width: 246px;
     height: 160px;
+    margin-top: 5px;
 }
 .stolby .ten-sl a{
     color:#555;
