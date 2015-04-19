@@ -52,7 +52,8 @@ h2{
 h4{
     font-family: pk1,arial;
     color: #999;
-    /* padding: 10px 0; */
+    font-size: 17px;
+    line-height: 1.3;
 }
 h5{  font-size: 1.2em;
      font-family: pk,arial;
