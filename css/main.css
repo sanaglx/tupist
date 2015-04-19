@@ -63,6 +63,8 @@ i{
     color: #777;position: 
         relative;
     top: 0;
+    /* display: table-cell; */    
+    /* vertical-align: middle; */
 }
 .border{
     border:2px solid #eee;
@@ -630,16 +632,17 @@ h1.lefth1:after{
     margin-top: 20px;
 }
 .vse{
-    padding: 15px;
+    padding: 25px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
-.vse a{border-bottom: 1px dashed #0AAFDE}
+.vse a:hover{border-bottom: 1px dashed #FFA400;}
+.vse a{border-bottom: 1px dashed #0874C2;}
 
 .vse a:hover{
-    font-family: pk,arial;
-    color: #0AAFDE;
+    font-family: pk1,arial;
+    color: #FFA400;
     text-decoration: none;
 }
 .no-active{color:#999;}

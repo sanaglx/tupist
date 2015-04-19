@@ -39,8 +39,9 @@
     
 }
 .carousel-control {
-  padding-top:10.25%;
+  padding: 11% 0;
   width: 26px;
+  display: block;      
 }
 /************* karusel index.html **********************/
 .carousel h2{
