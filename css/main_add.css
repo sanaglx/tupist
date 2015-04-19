@@ -13,6 +13,8 @@ and open the template in the editor.
 .row-35{margin-top: 35px;margin-bottom: 35px}
 .small-pk{
     font-family: pk,arial
+;
+    color: #888;
 }
 .bl-sw{
     width:150px;
@@ -66,7 +68,7 @@ a{outline: none !important;}
     padding: 8px 35px !important;
     font-size: 1.1em;
     text-transform: uppercase;
-    font-family: pk,arial;
+    font-family: pk1,arial;
 }
 
 .collapsed .str-ac{
@@ -287,7 +289,7 @@ label{font-weight: 400 ;}
 .htora .colr5{background: #1cc1ae;}
 
 .tbl1{}
-.tbl2{margin-left: 40px; }
+.tbl2{margin-left: 40px; width: 500px;}
 
 
 .htora h6 {
@@ -492,3 +494,4 @@ a:hover, a:focus{
   color: #FFA400 !important;}
 p{line-height: 1.5;}
 #myCarousel1+.carousel-control,#myCarousel1+.carousel-control+.right{padding-top: 70px;}
+.modal-title{  font-size: 1.3em;  font-family: pk,arial;}
