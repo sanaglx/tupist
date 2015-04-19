@@ -413,7 +413,7 @@ label{font-weight: 400 ;}
     background: #F1FFFF;
 }
 .ten-sl:not(:hover){
-    transition: 1s;
+  /*  transition: 1s;*/
 } 
 
 .stolby .ten-sl img{
