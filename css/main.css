@@ -221,7 +221,7 @@ h1.h1-line:after {  content: '';  display: inline-block;  position: relative;  t
 h1.h1-line:before {  left: -30px;  margin-left: -50%;}
 h1.h1-line:after {  left: 30px;  margin-right: -50%;}
 
-/**/h1{ font-size: 22px;  text-align: center;  font-family: pk1,arial;  color: #777; }
+h1{ font-size: 22px;  text-align: center;  font-family: pk1,arial;  color: #777; }
 h1 {  overflow: hidden;  position: relative;  margin: 0;  text-align: center;  white-space: nowrap;  text-shadow: 1px 0px 2px #ccc; }
 h1:after {  content: '';  display: inline-block;  position: relative;  top: -1px;  width: 51%;  height: 2px;  vertical-align: middle;  background: #ccc;}
 h1:after {  left: 30px;  margin-right: -50%;}
@@ -234,10 +234,10 @@ span.h1-line:after {  content: '';  display: inline-block;  position: relative; 
 span.h1-line:before {  left: -30px;  margin-left: -50%;}
 span.h1-line:after {  left: 30px;  margin-right: -50%;}
 
-/*span.h1-line{ font-size: 22px;  text-align: center;  font-family: pk1,arial;  color: #777; }
-span.h1-line {  overflow: hidden;  position: relative;  margin: 0;  text-align: center;  white-space: nowrap;  text-shadow: 1px 0px 2px #ccc; }
-span.h1-line:after {  content: '';  display: inline-block;  position: relative;  top: -1px;  width: 51%;  height: 2px;  vertical-align: middle;  background: #ccc;}
-span.h1-line:after {  left: 30px;  margin-right: -50%;}*/
+span.lefth1{ font-size: 22px;  text-align: center;  font-family: pk1,arial;  color: #777; }
+span.lefth1 {  overflow: hidden;  position: relative;  margin: 0;  text-align: center;  white-space: nowrap;  text-shadow: 1px 0px 2px #ccc; }
+span.lefth1:after {  content: '';  display: inline-block;  position: relative;  top: -1px;  width: 51%;  height: 2px;  vertical-align: middle;  background: #ccc;  overflow: hidden;}
+span.lefth1:after {  left: 30px;  margin-right: -50%;  /* overflow: hidden; */}
 
 .form-1{
     margin-left: 24px;
@@ -493,18 +493,12 @@ span.chislo {}
 
 }
 /**********************************/
-h1.lefth1{
-    text-align: left;
-    width: 100%;
-    padding-left: 0px;
-    margin-bottom: 30px;
-}
-h1.lefth1:before{
-    width: 51%;
-}
-h1.lefth1:after{
-    width: 100%;
-}
+h1.lefth1{ text-align: left; width: 100%; padding-left: 0px; margin-bottom: 30px; /* overflow: hidden; */}
+span.lefth1 { text-align: left; width: 63%; padding-left: 0px; margin-bottom: 30px; /* overflow: hidden; */}
+h1.lefth1:before, span.lefth1:before{ width: 51%;}
+h1.lefth1:after{ width: 100%;}
+span.lefth1:after{ width: 63%;}
+
 .infoblok-right img{width:100%;}
 .infoblok-right h3{margin: 40px 0 20px 0;}
 .ul-vl td{vertical-align: top;}
