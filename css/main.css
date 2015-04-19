@@ -57,7 +57,7 @@ h4{
 }
 h5{  font-size: 1.2em;
      font-family: pk,arial;
-     color: #999;
+     color: #777;
 }
 i{
     font-size: 1.1em; 
@@ -583,6 +583,11 @@ span.lefth1:after{ width: 63%;}
     box-shadow: 0px 0px 5px #FCF1C3;
     padding: 10px;
     background: #fffcf0;
+}
+
+.ramka1:hover .htora_text{
+    opacity: 0.9;
+    transition: 0.5s;
 }
 
 .cat-g-all .text{
