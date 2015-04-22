@@ -1075,4 +1075,31 @@ span.lefth1:after{ width: 63%;}
 }
 .widthx50 .kn-b{width: 190px;}
 .widthx50 h4, .widthx501 h4{/* text-shadow: 0 0 1px #818181; */font-size: 1.15em;margin: 4px 0;}
+ /****************/
+ .ser-blok{
+     border: 2px solid #d9d9d9;
  
+     padding: 15px;
+     background: #f4f4f4;
+}
+ .ser-blok .h-4{
+    font-size: 1.3em;
+    text-shadow: 0 0 1px #555;
+    margin-bottom: 10px;
+}
+
+.ser-blok:hover{background: #fff3c7;border: 2px solid #ffd700;}
+ .ser-blok:hover .name{background: #fff3c7;}
+ .ser-blok:hover .price{background: #fff3c7;}
+ 
+ .ser-blok .szv{font-size: 0.9em !important;/* line-height: 32px; */margin-top: 5px;padding-left: 22px !important;text-decoration: underline;padding-right: 6px;}
+ .ser-blok .szvx{margin-right: 5px;color: #555;text-decoration: underline;}
+ .ser-blok i{font-size: 0.85em; color:#999;}
+   .ser-blok  .goods { border-bottom: 2px dotted #BBB; text-align: right; margin-bottom: 10px;}
+   .ser-blok  .name, .price { background-color: #fff; position:relative; top: 5px; background: #f4f4f4;}
+   .ser-blok .price {  padding-left: 4px;}
+   .ser-blok  .name { float: left; }
+   .ser-blok hr{
+    margin: 18px 0px 14px;
+    border: 1px solid #ddd;
+}
