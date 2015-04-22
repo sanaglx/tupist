@@ -226,8 +226,8 @@ i{
     position: absolute;
     top: 4px;
     right: 6px;
-    font-weight: 600;
-    font-size: 0.8em;
+    font-weight: 400;
+    font-size: 0.7em;
 }
 .stolby1 .h4 a{text-decoration: none;color:#777;cursor: pointer;}
 .stolby1 .h4 a:hover{text-decoration: none;color:#FFA400;cursor: pointer;}
@@ -235,22 +235,32 @@ i{
 .stolby1 .h4{
     position: relative;
     font-family: pk1;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #999;
 }
 .stolby1 .h5{
     font-family: pk1;
-    font-size: 15px;
-    text-shadow: 0 0 1px #999;
+    font-size: 14px;
+    /* text-shadow: 0 0 1px #999; */
     padding: 0;
     margin: 4px 0;
 }
 .stolby1 .text-blok{
     text-align: justify;
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.8em;
     line-height: 1.5em;
     margin: 15px 0 20px 0;
+    color: #999;
+}
+.stolby1 .text-blok b{
+    font-style: normal;
+    
+    color: #777;
+    padding: 0 5px 0 0;
 }
 
 .stolby1 .list{
@@ -645,23 +655,23 @@ span.lefth1:after{ width: 63%;}
     transition: 1s; 
 }
 .cat-g-all .ramka1{
-    border: 1px solid #FCF1C3;
+   border: 1px solid #ffd500;
     padding: 10px;
     margin-left: 20px;
     width: 31%;
-    background: none repeat scroll 0% 0% #FFFCF0;
+     background: none repeat scroll 0% 0% #fffff3;
     margin-bottom: 20px;
     transition: 0.5s;
 }
 .ramka2_1{
-    border: 1px solid #FCF1C3;
-    background: none repeat scroll 0% 0% #FFFCF0;
+    border: 1px solid #ffd500;
+    background: none repeat scroll 0% 0% #fffff3;
     margin-bottom: 20px;
 }
 .ramka2{
-    border: 1px solid #FCF1C3;
+     border: 1px solid #ffd500;
     padding: 25px;
-    background: none repeat scroll 0% 0% #FFFCF0;
+     background: none repeat scroll 0% 0% #fffff3;
     margin-bottom: 20px;
 }
 .ramka2 a{
@@ -1024,12 +1034,18 @@ span.lefth1:after{ width: 63%;}
 }
 .widthx50 .blok-all{
     display: table;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     clear: both;
 }
 .widthx50 .border-blok-botoom{border-right: 1px solid #ccc; height: 80px;width: 100%;}
-.widthx50 .blok-w p{float: left; width: 72%; display: block;}
-.blok-wr img{width:100px;margin-left: 10px;}
+.widthx50 .blok-w p{float: left; width: 72%; display: block;font-size: 0.85em;color: #999;}
+.widthx50 .blok-w1 p{float: left; width: 65%; display: block;font-size: 0.85em;color: #999;margin-top: 8px;}
+.widthx501 p{float: left; width: 100%; display: block;font-size: 0.85em;color: #999;}
+.widthx50 .blok-wr > img {
+    /* width: 100px; */
+    margin: -10px 10px;
+    height: auto;
+}
 .border-blok{border-right: 1px solid #ccc;  border-bottom: 1px solid #ccc;}
 
 .widthx501 input{ 
@@ -1047,8 +1063,8 @@ span.lefth1:after{ width: 63%;}
     margin-bottom: 15px;
 }
 .widthx50 img{
-    width: 140px;
-    height: 150px;
+    max-width: 140px;
+    max-height: 150px;
     margin: 20px 0;
 }
 .widthx50 .zakach{
@@ -1058,5 +1074,5 @@ span.lefth1:after{ width: 63%;}
  cursor: pointer;
 }
 .widthx50 .kn-b{width: 190px;}
-.widthx50 h4, .widthx501 h4{text-shadow: 0 0 1px #818181;}
+.widthx50 h4, .widthx501 h4{/* text-shadow: 0 0 1px #818181; */font-size: 1.15em;margin: 4px 0;}
  
