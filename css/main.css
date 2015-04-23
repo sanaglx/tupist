@@ -196,6 +196,88 @@ i{
     font: 14px/24px pk1,arial;
 }
 
+/************************************/
+.blok_stolby1{
+    position: relative;
+    z-index: 20;
+    margin-top: -3px;
+}
+.stolby1{
+    line-height: 1em;
+    columns: 410px auto;
+    -moz-columns: 410px auto;
+    -webkit-columns: 410px auto;
+    break-after: column;   
+}
+.stolby1 .ten-sl{
+    width: 410px;
+    display: inline-block;
+    background: white;
+    margin: 11px 2px;
+    vertical-align: top;
+    padding: 4px 20px;
+    border: 1px solid #7FC1EC;
+
+}
+.stolby1 .ten-sl:hover{background:#FAFFFF; }
+
+
+.stolby1 .close-ot{
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+.stolby1 .h4 a{text-decoration: none;color:#777;cursor: pointer;}
+.stolby1 .h4 a:hover{text-decoration: none;color:#FFA400;cursor: pointer;}
+
+.stolby1 .h4{
+    position: relative;
+    font-family: pk1;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.stolby1 .h5{
+    font-family: pk1;
+    font-size: 15px;
+    text-shadow: 0 0 1px #999;
+    padding: 0;
+    margin: 4px 0;
+}
+.stolby1 .text-blok{
+    text-align: justify;
+    font-style: italic;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 15px 0 20px 0;
+}
+
+.stolby1 .list{
+    padding: 10px 10px;
+    border:1px solid ;
+    border-color: #fff;
+}
+.stolby1 .list:hover{
+    border:1px solid ;
+    border-color: #74dbff;
+}
+.stolby1 .list img{
+    width: 250px;
+    height: 160px;
+}
+.stolby1 .list a{
+    color:#555;
+}
+.stolby1 .list a:hover{
+    font: 14px/24px pk,arial;
+    color:#02b0ed;
+}
+
+.stolby1 .list p{
+    font: 14px/24px pk1,arial;
+}
+
 /***********background******************/
 .baba{
     position: relative;
@@ -942,8 +1024,8 @@ span.lefth1:after{ width: 63%;}
 }
 .widthx50 .blok-all{
     display: table;
-margin-bottom: 20px;
-clear: both;
+    margin-bottom: 20px;
+    clear: both;
 }
 .widthx50 .border-blok-botoom{border-right: 1px solid #ccc; height: 80px;width: 100%;}
 .widthx50 .blok-w p{float: left; width: 72%; display: block;}
