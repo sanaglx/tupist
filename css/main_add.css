@@ -508,3 +508,26 @@ p{text-shadow: 0 0 0px #cccccc;}
 .ramka3{
     margin-top: 9px;
 }
+
+.h-blok4{width: 1170px;
+         position: relative;
+         margin: 0 auto;
+         height: 71px;
+}
+.h-blok5{
+    float: right;
+    margin-right: 45px;
+    margin-top: 10px;
+}
+.h-blok4 .glyphicon{color: #F5B42D;margin-right: 7px;}
+.h-blok5 .glyphicon{color: #F5B42D; margin-right: 7px;}
+.h-blok5 p{}
+.h-blok4 .vopr{
+    background: #F5B42D;
+    padding: 0 4px;
+    color: white;
+    font-family: tahoma,arial;
+    font-weight: 600;
+    font-size: 0.85em;
+    margin-right: 7px;
+}
