@@ -492,15 +492,19 @@ a:hover, a:focus{
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus  {box-shadow: none;outline: none;}
 .p-dob a:hover{  text-decoration: underline;
                  color: #FFA400 !important;}
-p{line-height: 1.5;}
+p{text-shadow: 0 0 0px #cccccc;}
 #myCarousel1+.carousel-control,#myCarousel1+.carousel-control+.right{padding-top: 70px;}
 .modal-title{  font-size: 1.3em;  font-family: pk,arial;}
 .balans{
     text-align: center;
-    color: #8c00cc;
+    color: #62B2FF;
     font-size: 1.1em;
-    font-family: pk;
+    font-family: pk,arial;
 }
+.spisok{margin-left: -12px;margin-bottom: 20px;}
+.spisok .glyphicon {color:#FFA400;}
+.spisok li {list-style-type: none;}
+.spisok li:before {content: ""; color:#FFA400;background: url(../img/v.png) no-repeat;}
 .ramka3{
     margin-top: 9px;
 }

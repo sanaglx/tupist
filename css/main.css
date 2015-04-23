@@ -32,6 +32,7 @@ body , html{
     color: #555;
     height: 100%;
     min-width: 1170px;
+    min-height: 1000px;
 }
 body{
     //background: url(../imgx/sk1.jpg)no-repeat 3px -24px;
@@ -77,6 +78,7 @@ i{
     font: 21px pk,arial;
     color: #555;  
 }
+.panel, .panel-default, .form-control {border-radius: 0 !important; }
 /************verh-menu*************************/
 
 .verh_meny{
@@ -129,7 +131,8 @@ i{
     margin-left: -7px;
 }
 .menu-blue .nav li{
-    padding: 4px 51px 0 0; 
+    /*padding: 4px 51px 0 0; */
+    padding: 4px 0 0 0 ;
 }
 .nav li a{
     font-family: pk,arial;
@@ -567,6 +570,11 @@ span.lefth1:after{ width: 63%;}
     background: none repeat scroll 0% 0% #FFFCF0;
     margin-bottom: 20px;
     transition: 0.5s;
+}
+.ramka2_1{
+    border: 1px solid #FCF1C3;
+    background: none repeat scroll 0% 0% #FFFCF0;
+    margin-bottom: 20px;
 }
 .ramka2{
     border: 1px solid #FCF1C3;

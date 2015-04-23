@@ -48,23 +48,12 @@
                     <div class="wrap">
                         <div class="menu-blue">
 
-                            <ul class="nav nav-pills">
-                                <li><a href="">Гаагра</a></li>
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Каталог жилья <span class="caret1"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Пункт1</a></li>
-                                        <li><a href="#">Пункт2</a></li>
-                                        <li><a href="#">Очень длинный пункт меню</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">можно отделить какойто пункт от остальных</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="">Отзывы</a></li>
-                                <li><a href="">Скидки</a></li>
-                                <li><a href="">Путеводитель</a></li>
-                                <li><a href="">Информация</a></li>
-                                <li><a href="">Карта</a></li>
+                            <ul class="nav nav-pills nav-justified">
+                                <li><a href="">Моя гостинница</a></li>
+                                <li><a href="">Заявки на проживание</a></li>
+                                <li><a href="">Отзывы отдыхающих</a></li>
+                                <li><a href="">Оплата и баланс</a></li>
+                                <li><a href="">Профиль</a></li>
 
                             </ul>
                         </div>
@@ -107,18 +96,31 @@
                                                 </div> 
                                             </div>
                                             <div class="row">
-                                                <div class="col-xs-3"><input class="form-control form-group " name="dolg1" type="text" placeholder="Тип жилья" /></div>
-                                                <div class="col-xs-3"><input class="form-control form-group " name="dolg1" type="text" placeholder="Адрес" /></div>
-                                                <div class="col-xs-3"><input class="form-control form-group " name="dolg1" type="text" placeholder="улица/дом" /></div>
-                                            </div>  
-                                            <div class="row">
-                                                <div class="col-xs-12">
-                                                    <textarea class="form-control pading-10" name='t_area' rows="5" placeholder="Подробно напишите, что есть в вашей гостиннице,что находится рядом и как к вам добраться..." > 
-                                                    </textarea>
-                                                    <div class="pading-10"></div>
-                                                </div> 
-                                            </div>
+                                                <div  class="col-xs-3">
+                                                    <select class="form-control selectpicker show-tick " data-width="193px">
+                                                        <option>Тип жилья</option>
+                                                        <option>Один тип</option>
+                                                        <option>Второй тип</option>
+                                                    </select>
+                                                </div>    
+                                                <div  class="col-xs-3">    
+                                                    <select class="form-control selectpicker show-tick " data-width="193px">
+                                                        <option>Адрес</option>
+                                                        <option>Один Адрес</option>
+                                                        <option>Второй Адрес</option>
+                                                    </select>
+                                                </div>    
 
+                                                <div class="col-xs-3"><input class="form-control form-group " name="dolg1" type="text" placeholder="улица/дом" /></div>
+
+                                               
+                                                    <div class="col-xs-12">
+                                                        <textarea class="form-control pading-10" name='t_area'  rows="5" placeholder="Подробно напишите, что есть в вашей гостиннице,что находится рядом и как к вам добраться..." > 
+                                                        </textarea>
+                                                        <div class="pading-10"></div>
+                                                    </div> 
+                                                
+                                            </div>
                                             <button type="button" class="btn btn-primary  grad-blue-u kn-b">Добавить</button>
                                         </form>
                                     </div>
@@ -386,19 +388,21 @@
                         </div>
 
                     </div>
-                    <div class="col-xs-3 blok-s ramka3 ramka2">
-                        <p><strike>1) Регистрация на сайте</strike></p>
-                        <p><strike>2) Регистрация на сайте</strike></p>
-                        <p>3) Заполните информацию</p>
+                    <div class="col-xs-3 blok-s ramka3 ramka2_1">
+                        <div style="margin-left: 25px;margin-top: 15px;">
+                            <p><strike>1) Регистрация на сайте</strike></p>
+                            <p><strike>2) Регистрация на сайте</strike></p>
+                            <p>3) Заполните информацию</p>
+                        </div>  
                         <hr>
                         <div class="balans">Ваш баланс = 0руб.</div>
                         <hr>
-                        <p style="text-align: center;">Рекламная статистика</p>
-                        <ul>
-                            <li>Заявка на проживание :15</li>
-                            <li>Гостинницу смотрели :15</li>
-                            <li>Посмотрели контакты :15</li>
-                            <li>Количество отзывов :15</li>
+                        <p style="text-align: center;text-shadow: 0 0 1px #777;">Рекламная статистика</p>
+                        <ul class="spisok">
+                            <li ><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Заявка на проживание :15</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Гостинницу смотрели :15</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Посмотрели контакты :15</li>
+                            <li><span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;Количество отзывов :15</li>
                         </ul>
                     </div>
                 </div>
