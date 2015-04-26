@@ -137,8 +137,7 @@ i{
 .nav li a{
     font-family: pk,arial;
     font-size: 1em;
-    /* padding: 10px 30px; */
-    /* font-weight: 200; */
+    color: #0AAFDE;
 }
 .menu .nav > li > a:hover,
 .menu .nav > li > a:focus {
@@ -748,7 +747,7 @@ span.lefth1:after{ width: 63%;}
     text-decoration: none;
 }
 .no-active{color:#999;}
-.pagination{ font-size: 0.9em;}
+.pagination{ padding: 25px; text-align: center; font-size: 1.15em;}
 .pagination>li>a{border: none;}
 .pagination>.active>a{
     background: none;
@@ -758,8 +757,7 @@ span.lefth1:after{ width: 63%;}
     margin-top: 3px;
     font-weight: 600;
 }
-.pagination > li > a:hover{background: #fff;font: 1em pk1,arial;color: #999;text-decoration: underline;}
-
+.pagination > li > a:hover{background: #fff;color: #00B2F0; }
 /**********************************************/
 .blok-b{
     /* position: absolute; */
