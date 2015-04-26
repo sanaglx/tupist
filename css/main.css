@@ -79,6 +79,7 @@ i{
     color: #555;  
 }
 .panel, .panel-default, .form-control {border-radius: 0 !important; }
+p{line-height: 1.5;}
 /************verh-menu*************************/
 
 .verh_meny{
@@ -103,7 +104,7 @@ i{
 .r_log{
     position: absolute;
     top: 0px;
-    right: 22px;
+    right: 1px;
 }
 
 .img_logo{
@@ -112,9 +113,9 @@ i{
 }
 .add-men{
     position: relative;
-    top: 27px;
+    top: 28px;
     z-index: 10;
-    margin: -3px;
+    margin: 11px;
     font-family: pk,arial;
     color: #e9a30b;
     font-size: 1.1em;
@@ -131,9 +132,10 @@ i{
     margin-left: -7px;
 }
 .menu-blue .nav li{
-    /*padding: 4px 51px 0 0; */
-    padding: 4px 0 0 0 ;
+    width: 0%;
+    padding: 4px 30px 0px;
 }
+.menu-blue .dropdown-menu li{width: 100%;}
 .nav li a{
     font-family: pk,arial;
     font-size: 1em;
@@ -257,7 +259,7 @@ i{
 }
 .stolby1 .text-blok b{
     font-style: normal;
-    
+
     color: #777;
     padding: 0 5px 0 0;
 }
@@ -500,9 +502,8 @@ span.chislo {}
     text-shadow: 0px -1px 5px #03206C;
 }
 .blok-shaka-otzyv i{
-    /* text-align: center !important; */
 
-    font: italic 1em/1.5em pk1;
+ font: italic 12px/0.5em pk1;
 }
 .form-registr{
     border: 1px solid #FFBE74;
@@ -522,10 +523,11 @@ span.chislo {}
     color: #777;
 }
 .form-registr .btn{
-    background: #e90e5e;
+    background: #FF0052;
     margin: 3px 0 20px;
     color: #fff;
     text-shadow: 0px -1px 3px #5E5B5B;
+    border-radius: 0;
 }
 .form-registr .btn:hover{
     background: #CB0447; 
@@ -608,6 +610,7 @@ span.lefth1:after{ width: 63%;}
 .ul-vl .img-sm{width: 60px; float: left;  margin-right: 10px;}
 .ul-vl .text{ margin-top: -3px;}
 .ul-vl .text1{}
+.ul-vl1  .nav > li{margin-bottom: 5px;}
 .infoblok-right{font: 1em/2em pk1,arial; padding-left: 30px;}
 
 .caret1{
@@ -618,6 +621,8 @@ span.lefth1:after{ width: 63%;}
     height: 10px;
     width: 13px;
     border: none;}
+
+
 .nav > li > a:hover, .nav > li > a:focus{
     background: rgba(255, 210, 24, 0.74);
     padding: 4px 15px;    
@@ -625,6 +630,15 @@ span.lefth1:after{ width: 63%;}
     color: #090B0B;
     text-shadow: none;
 }
+
+.menu .nav > li > a{padding: 10px 0px 10px 33px;}
+.menu .nav > li > a:hover,.menu .nav > li > a:focus{
+    padding: 4px 0 4px 33px;    
+    margin-top: 6px;
+    text-shadow: none;
+}
+
+
 .open > .dropdown-menu {
     display: block;
     position: absolute;
@@ -654,11 +668,11 @@ span.lefth1:after{ width: 63%;}
     transition: 1s; 
 }
 .cat-g-all .ramka1{
-   border: 1px solid #ffd500;
+    border: 1px solid #ffd500;
     padding: 10px;
     margin-left: 20px;
     width: 31%;
-     background: none repeat scroll 0% 0% #fffff3;
+    background: none repeat scroll 0% 0% #fffff3;
     margin-bottom: 20px;
     transition: 0.5s;
 }
@@ -668,9 +682,9 @@ span.lefth1:after{ width: 63%;}
     margin-bottom: 20px;
 }
 .ramka2{
-     border: 1px solid #ffd500;
+    border: 1px solid #ffd500;
     padding: 25px;
-     background: none repeat scroll 0% 0% #fffff3;
+    background: none repeat scroll 0% 0% #fffff3;
     margin-bottom: 20px;
 }
 .ramka2 a{
@@ -783,7 +797,7 @@ span.lefth1:after{ width: 63%;}
     width: 101%;
     margin-top: 20px;
     border:2px solid #eee;
-    padding: 10px 0;
+    padding: 5px 0;
     position: relative;
     margin-left: 0px;
     transition: 1s;
@@ -1066,38 +1080,44 @@ span.lefth1:after{ width: 63%;}
     margin: 20px 0;
 }
 .widthx50 .zakach{
- margin-bottom: 20px;
- font-size: 1.1em;
- margin-left: 11px;
- cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    margin-left: 11px;
+    cursor: pointer;
 }
 .widthx50 .kn-b{width: 190px;}
 .widthx50 h4, .widthx501 h4{/* text-shadow: 0 0 1px #818181; */font-size: 1.15em;margin: 4px 0;}
- /****************/
- .ser-blok{
-     border: 2px solid #d9d9d9;
- 
-     padding: 15px;
-     background: #f4f4f4;
+/****************/
+.ser-blok{
+    border: 2px solid #d9d9d9;
+
+    padding: 15px;
+    background: #f4f4f4;
 }
- .ser-blok .h-4{
+.ser-blok .h-4{
     font-size: 1.3em;
     text-shadow: 0 0 1px #555;
     margin-bottom: 10px;
 }
 
 .ser-blok:hover{background: #fff3c7;border: 2px solid #ffd700;}
- .ser-blok:hover .name{background: #fff3c7;}
- .ser-blok:hover .price{background: #fff3c7;}
- 
- .ser-blok .szv{font-size: 0.9em !important;/* line-height: 32px; */margin-top: 5px;padding-left: 22px !important;text-decoration: underline;padding-right: 6px;}
- .ser-blok .szvx{margin-right: 5px;color: #555;text-decoration: underline;}
- .ser-blok i{font-size: 0.85em; color:#999;}
-   .ser-blok  .goods { border-bottom: 2px dotted #BBB; text-align: right; margin-bottom: 10px;}
-   .ser-blok  .name, .price { background-color: #fff; position:relative; top: 5px; background: #f4f4f4;}
-   .ser-blok .price {  padding-left: 4px;}
-   .ser-blok  .name { float: left; }
-   .ser-blok hr{
+.ser-blok:hover .name{background: #fff3c7;}
+.ser-blok:hover .price{background: #fff3c7;}
+
+.ser-blok .szv{font-size: 0.9em !important;/* line-height: 32px; */margin-top: 5px;padding-left: 22px !important;text-decoration: underline;padding-right: 6px;}
+.ser-blok .szvx{margin-right: 5px;color: #555;text-decoration: underline;}
+.ser-blok i{font-size: 0.85em; color:#999;}
+.ser-blok  .goods { border-bottom: 2px dotted #BBB; text-align: right; margin-bottom: 10px;}
+.ser-blok  .name, .price { background-color: #fff; position:relative; top: 5px; background: #f4f4f4;}
+.ser-blok .price {  padding-left: 4px;}
+.ser-blok  .name { float: left; }
+.ser-blok hr{
     margin: 18px 0px 14px;
     border: 1px solid #ddd;
 }
+
+/********************************************************/
+.btn-info:hover, .btn:hover, .grad-blue-u:hover{text-shadow: none !important;}
+.btn{border-radius: 2px !important;}
+
+.p-dob p{line-height: 1.2;}
