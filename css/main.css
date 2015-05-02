@@ -26,7 +26,7 @@ html{
 }
 body , html{
     padding: 0px;
-    margin: 0px;
+    margin: 0px auto;
     font: 14px pk1,arial;
     text-shadow: 0px 0px 0px #CCC;
     color: #555;
@@ -90,16 +90,14 @@ p{line-height: 1.5;}
     background: #fff;
     z-index: 100;
     display: table;
-    /* margin-right: -12px; */
+   /* margin-right: -12px; */
 }
 .verh_meny div{}
 
 .wrap,.blok_stolby{
-    /* min-width: 1200px; */
     width: 1170px;
     margin: 10px auto;
     position: relative;
-    /* overflow: hidden; */
 }
 .wrap-all{
    width: 1170px;
