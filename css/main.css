@@ -101,6 +101,10 @@ p{line-height: 1.5;}
     position: relative;
     /* overflow: hidden; */
 }
+.wrap-all{
+   width: 1170px;
+    margin: 10px auto;  
+}
 .r_log{
     position: absolute;
     top: 0px;
@@ -439,7 +443,7 @@ span.chislo {}
 }
 /**********************************/
 .center1{  padding-top: 105px;  background: #f8f9f9; position: relative;}
-.center2{  padding-top: 80px;  position: relative;}
+.center2{  padding-top: 131px;  position: relative;}
 .section{ width: 1170px; margin: 0 auto;}
 .section .section-img{ position: relative; top: -47px; left: 544px;}
 .section .text{ /* margin-top: 35px; */ color:#555; }
@@ -485,10 +489,10 @@ span.chislo {}
 /****************************************/
 
 .blok-shaka-otzyv{
-    width: 68%;
+    width: 900px;
     position: absolute;
     top: 133px;
-    margin-left: -541px; 
+    margin-left: -477px; 
     left: 50%;
 }
 .blok-shaka-otzyv p{
@@ -570,6 +574,7 @@ span.chislo {}
 }
 /********************************************/
 .menu-blue{
+    /* display: initial; */
 
 }
 .menu-blue nav{
@@ -580,6 +585,7 @@ span.chislo {}
     position: relative;
     top: 2px;
     /* height: 82px; */
+    /* line-height: 30px; */
 }
 .menu-blue li a{
     font-family: pk1,arial;
