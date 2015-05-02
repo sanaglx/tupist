@@ -565,9 +565,10 @@ p{text-shadow: 0 0 0px #cccccc;}
     margin-left: 0px !important;
 }
 .karusel5 .right-nav{
-    margin-right: 0px !important;
+    /* margin-right: 0px !important; */
     padding: 0;
-    position: absolute;
-    right: -27px;
+    position: relative;
+    right: 32px;
+    /* margin-right: 51px; */
 }
 .nav-justified > li{display: table-cell;}
