@@ -594,7 +594,7 @@ border-pos{
     font-family: pk,arial;
     color: #E9A30B;
     font-size: 1.1em;
-   padding-right: 5px;
+    padding-right: 5px;
 }
 @media (max-width: 1170px) {
     .verh_meny{
@@ -606,6 +606,10 @@ border-pos{
         display: table;
         /* margin-right: -12px; */
     }
+    body.modal-open .ov-h {
+        padding-right: 0px !important;
+    }
+
 }
 @media (max-width: 600px) {
     .blok-shaka-index .h-1 {
@@ -620,6 +624,9 @@ border-pos{
         font-size: 0.9em;
         width: 70%;
         height: 60px;
+    }
+    body.modal-open .ov-h {
+        padding-right: 0px !important;
     }
 }
 
