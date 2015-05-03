@@ -575,6 +575,11 @@ border-pos{
     /* margin-right: 51px; */
 }
 .nav-justified > li{display: table-cell;}
+.vhod-reg{font-size: 0.8em; display: block;}
+.vhod{  padding: 7px 50px;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+}
 
 /******************v-menu***************************************/
 
