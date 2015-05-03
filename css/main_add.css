@@ -59,6 +59,7 @@ a{outline: none !important;}
 .knop-vid .a:hover{
     color:#FAA432;
 }
+
 .baner img{width: 100%}
 .pading-10{padding: 10px 0;}
 .pading-15{padding: 15px 0;}
@@ -368,6 +369,9 @@ label{font-weight: 400 ;}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb93f', endColorstr='#fff6f1',GradientType=0 );
     text-shadow: 0 1px 1px #444;
 }
+.vhod{padding: 7px 50px;font-size: 1.1em;}
+.vhod-reg{padding: 10px 0 0px;}
+.vhod-reg a{font-size: 0.9em;opacity: 0.9;}
 
 /******************knoka vverh*********************/
 /* Back to top button */

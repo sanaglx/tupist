@@ -38,7 +38,7 @@
                             <li><span class="add-men" ><img src="img/vyh_r.png" /></span><a href="contakt.html">КОНТАКТЫ</a></li>
                         </ul>
                     </div>
-                    <div class="r_log"><img src="img/vh.png" /> <a href="">Вход</a>&nbsp;&nbsp;/&nbsp;&nbsp;<img src="img/vyh.png" /><a href="">Регистрация</a></div> 
+                    <div class="r_log"><img src="img/vh.png" /> <a href="#myModal-vhod" data-toggle="modal">Вход</a>&nbsp;&nbsp;/&nbsp;&nbsp;<img src="img/vyh.png" /><a href="">Регистрация</a></div> 
                 </div> 
             </div>
         </div>
@@ -629,6 +629,34 @@
             </div>
         </div>
     </div>
+    
+            <!-- Modal HTML -->
+        <div id="myModal-vhod" class="modal fade">
+            <div class="modal-dialog" style="width:350px;">
+                <div class="modal-content row">
+                    <div class="col-xs-12"> 
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style=" margin: -8px -19px;"><img src="img/close.png" /></button>
+                            <form>
+                                <div class="row">
+                                    <div class="col-xs-11">
+                                <input class="form-control" name="" placeholder="Логин" />
+                                <br />
+                                <input class="form-control" name="" placeholder="Пароль" />
+                                <br>
+                                <a class="btn btn-info btn-lg grad-blue-u vhod" href="#">Вход</a>
+                                <br>
+                                <div class="vhod-reg"><a href="">Вспомнить пароль</a></div>
+                                
+                                    </div>   
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     <script>
         function ajax() { //Ajax отправка формы
