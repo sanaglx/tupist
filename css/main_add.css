@@ -594,7 +594,7 @@ border-pos{
     font-family: pk,arial;
     color: #E9A30B;
     font-size: 1.1em;
-
+   padding-right: 5px;
 }
 @media (max-width: 1170px) {
     .verh_meny{
