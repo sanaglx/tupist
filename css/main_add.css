@@ -624,6 +624,4 @@ border-pos{
 }
 
 body.modal-open .verh_meny{padding-right: 17px;}
-body.modal-open .carousel-inner{right:8px;}
-body.modal-open #myCarousel .n_xx{left:-4px;}
-body.modal-open .baba{left:44.6%}
+body.modal-open .ov-h{padding-right: 17px;}
