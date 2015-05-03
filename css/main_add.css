@@ -59,7 +59,6 @@ a{outline: none !important;}
 .knop-vid .a:hover{
     color:#FAA432;
 }
-
 .baner img{width: 100%}
 .pading-10{padding: 10px 0;}
 .pading-15{padding: 15px 0;}
@@ -170,7 +169,7 @@ a{outline: none !important;}
 }
 .bkg_m1{
     background: url("../img/backg4.jpg") repeat-x 0 86px;
-     height: 620px;
+    height: 620px;
 }
 /*********************************/
 .blok-shaka-index{
@@ -194,7 +193,7 @@ a{outline: none !important;}
 .blok-shaka-index .h-4{
     font-size: 1.1em;
     width: 85%;
-    height: 100px;
+    height: 80px;
 }
 
 .p-plk{
@@ -369,9 +368,6 @@ label{font-weight: 400 ;}
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb93f', endColorstr='#fff6f1',GradientType=0 );
     text-shadow: 0 1px 1px #444;
 }
-.vhod{padding: 7px 50px;font-size: 1.1em;}
-.vhod-reg{padding: 10px 0 0px;}
-.vhod-reg a{font-size: 0.9em;opacity: 0.9;}
 
 /******************knoka vverh*********************/
 /* Back to top button */
@@ -426,7 +422,7 @@ label{font-weight: 400 ;}
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
     /* transition: 1s; */
-   /* background: #F1FFFF;*/
+    /* background: #F1FFFF;*/
 }
 .ten-sl:not(:hover){
     /*  transition: 1s;*/
@@ -438,9 +434,9 @@ label{font-weight: 400 ;}
     margin-top: 5px;
     opacity: 0.85;
 }
- .stolby .ten-sl img:hover{opacity: 1;}
- .ten-sl:hover img{opacity: 1;transition: all 0.5s ease 0s;}
- 
+.stolby .ten-sl img:hover{opacity: 1;}
+.ten-sl:hover img{opacity: 1;transition: all 0.5s ease 0s;}
+
 .stolby .ten-sl a{
     color:#555;
     line-height: 1.42857143;
@@ -510,7 +506,10 @@ a:hover, a:focus{
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus  {box-shadow: none;outline: none;}
 .p-dob a:hover{  text-decoration: underline;
                  color: #FFA400 !important;}
-p{text-shadow: 0 0 0px #cccccc;}
+p{
+    text-shadow: 0 0 0px #cccccc;
+    text-align: justify;
+}
 #myCarousel1+.carousel-control,#myCarousel1+.carousel-control+.right{padding-top: 70px;}
 .modal-title{  font-size: 1.3em;  font-family: pk,arial;}
 .balans{
@@ -552,7 +551,7 @@ p{text-shadow: 0 0 0px #cccccc;}
 }
 
 
- border-pos{
+border-pos{
     border: 5px solid #40c4c8;
     padding: 20px;
     -moz-border-image: url(../img/posgv.png) 5 round round;
@@ -577,30 +576,44 @@ p{text-shadow: 0 0 0px #cccccc;}
 }
 .nav-justified > li{display: table-cell;}
 
+/******************v-menu***************************************/
 
-/**================================================================================*
-.navbar-collapse .add-men{
-    position: relative;
-    top: 32px;
-    z-index: 10;
-    margin: -2px;
+.nav11 {list-style: outside none none;line-height: 75px;}
+.nav11 li{display: inline; /* Отображать как строчный элемент */
+          //margin-left:84px; /* Отступ слева */
+          text-align: justify;
+          padding-left: 6.25%;
+}
+.nav11 a{font-family: pk,arial;}
+.nav11 .add-men {
     font-family: pk,arial;
-    color: #e9a30b;
+    color: #E9A30B;
     font-size: 1.1em;
-    padding: 0px;
-}
-.navbar-default{
-  background-color: #fff;
- //  height: 96px;
-}
-.navbar-default .navbar-nav > .active > a,
- .navbar-default .navbar-nav > .active > a:hover,
- .navbar-default .navbar-nav > .active > a:focus {
-color: #0AAFDE;
-padding:0;
-margin:0;
-background: transparent;
-}
-.nav2>li>a{  display: inline;}
 
-*/
+}
+@media (max-width: 1170px) {
+    .verh_meny{
+        position: absolute !important;
+        height: 96px;
+        width: 100%;
+        box-shadow: 0px 2px 2px 0px #999;
+        z-index: 100;
+        display: table;
+        /* margin-right: -12px; */
+    }
+}
+@media (max-width: 600px) {
+    .blok-shaka-index .h-1 {
+        font-size: 30px;
+        font-family: pk,arial;
+        padding-bottom: 10px;
+    }
+    .blok-shaka-index p {
+        font-size: 20px;
+    }
+    .blok-shaka-index .h-4 {
+        font-size: 0.9em;
+        width: 70%;
+        height: 60px;
+    }
+}

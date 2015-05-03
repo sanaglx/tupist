@@ -82,17 +82,23 @@ i{
 p{line-height: 1.5;}
 /************verh-menu*************************/
 
-.verh_meny{
-    position: fixed;
+.head .verh_meny{
+    position:fixed;
     height: 96px;
     width: 100%;
-    box-shadow: 0px 0px 6px 1px #555;
+    box-shadow: 0px 2px 3px 0px #999;
     background: #fff;
     z-index: 100;
     display: table;
    /* margin-right: -12px; */
 }
-.verh_meny div{}
+p{
+    width:100%;
+}
+.verh_meny div{
+    text-align: right;
+    padding-right: 3px;
+}
 
 .wrap,.blok_stolby{
     width: 1170px;
@@ -113,7 +119,7 @@ p{line-height: 1.5;}
     float: left;
     margin-right: 65px;
 }
-.add-men{
+.nav .add-men{
     position: relative;
     top: 28px;
     z-index: 10;
@@ -124,14 +130,9 @@ p{line-height: 1.5;}
     padding: 0px;
 }
 .menu .nav li{
-    /* padding: 4px 51px 0 0; */
-    /* text-align: right; */
-    /* text-align: justify; */
-    /* width: 217px; */
-    /* padding: 0 0 0 0px; */
-    padding: 5px 0  0 76px;
+    padding: 5px 0  0 50px;
     display: block;
-    margin-left: -7px;
+   
 }
 .menu-blue .nav li{
     width: 0%;
@@ -358,13 +359,12 @@ span.lefth1:after {  left: 30px;  margin-right: -50%;  /* overflow: hidden; */}
     text-shadow: 1px 0px 2px #555;
 }
 .form-zakaz{
-    height: 325px;
     border-left: 2px solid;
     border-bottom: 2px solid;
     border-right: 2px solid;
     border-color: #CCC;
     position: relative;
-    /* padding-bottom: 20px; */
+     padding-bottom: 20px; 
 }
 .form-zakaz p{
     font-family: pk;
@@ -395,7 +395,7 @@ span.chislo {}
 }
 
 /************premi***************/
-.premi{margin-top: 35px;}
+.premi{margin-top: 35px;margin-right: 0;}
 .premi p{
     padding: 27px 0;
     text-align: center;
@@ -449,7 +449,7 @@ span.chislo {}
 /**********************************/
 
 .p-dob-gos .text{color:#888;}
-.p-dob-gos .row{margin-top: 35px;}
+.p-dob-gos .row{margin-top: 35px;margin-right: 0;}
 .p-dob-gos .text1{padding-left: 3px;font-family: pk,arial;color:#777;}
 .p-dob-gos .h5{display: block; color:#298eca;font: 17px pk1,arial;}
 .p-dob-img{float:left;display:block;width: 160px;height: 160px;border:1px solid #ddd;}
@@ -490,8 +490,8 @@ span.chislo {}
     width: 900px;
     position: absolute;
     top: 133px;
-    margin-left: -477px; 
-    left: 50%;
+    margin-left: -23%; 
+    left: 34%;
 }
 .blok-shaka-otzyv p{
     font-size: 24px;
@@ -509,7 +509,7 @@ span.chislo {}
 }
 .blok-shaka-otzyv .ten-h{
     color: #fff;
-    text-shadow: 0px -1px 5px #03206C;
+    /*text-shadow: 0px -1px 5px #03206C;*/
 }
 .blok-shaka-otzyv i{
 
