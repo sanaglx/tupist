@@ -999,9 +999,10 @@ span.lefth1:after{ width: 63%;}
     width: 314px;
 }
 .col14{
-    padding: 30px;
+    padding: 29px 5px;
 
     /* line-height: 1px; */
+    margin-left: 19px;
 }
 .col14 .text{
     float: left;
@@ -1035,7 +1036,7 @@ span.lefth1:after{ width: 63%;}
 }
 .mes-sp{
     position: absolute;
-    right: 17px;
+    right: -2px;
     top: 6px;
     /* transition-delay: 3s; */
 }
